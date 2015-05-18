@@ -3,6 +3,13 @@
 	clear: both;
 	height: 602px;
 	margin-bottom: 22px;
+	& .bar-tablets{
+		p{
+			font-family:'Arial';
+			font-weight:bold;
+			font-size:18px;
+		}
+	}
 	h3{
 		font-family: 'lg_smartsemibold';
 		font-size: 40px;

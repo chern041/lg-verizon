@@ -201,7 +201,13 @@
   height: 602px;
   margin-bottom: 22px;
 }
-/* line 6, ../sass/components/content/_product-spotlight.scss */
+/* line 7, ../sass/components/content/_product-spotlight.scss */
+.product-spotlight .bar-tablets p {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 13, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight h3 {
   font-family: 'lg_smartsemibold';
   font-size: 40px;
@@ -211,7 +217,7 @@
   margin-top: .3em;
   margin-right: 25px;
 }
-/* line 16, ../sass/components/content/_product-spotlight.scss */
+/* line 23, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar {
   position: absolute;
   z-index: 100;
@@ -226,71 +232,71 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
 }
-/* line 29, ../sass/components/content/_product-spotlight.scss */
+/* line 36, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar p {
   width: 482px;
   float: left;
   margin-right: 10px;
   line-height: 1.3em;
 }
-/* line 35, ../sass/components/content/_product-spotlight.scss */
+/* line 42, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar .black-button {
   padding: 1em 61px;
 }
-/* line 38, ../sass/components/content/_product-spotlight.scss */
+/* line 45, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content-bg {
   z-index: 0;
   position: absolute;
 }
-/* line 42, ../sass/components/content/_product-spotlight.scss */
+/* line 49, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content {
   padding-top: 130px;
   position: relative;
 }
-/* line 47, ../sass/components/content/_product-spotlight.scss */
+/* line 54, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content ul {
   margin: 0;
   padding: 0;
 }
-/* line 51, ../sass/components/content/_product-spotlight.scss */
+/* line 58, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content li {
   list-style: none;
   float: left;
 }
-/* line 55, ../sass/components/content/_product-spotlight.scss */
+/* line 62, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product {
   float: left;
   width: 50%;
   position: relative;
 }
-/* line 59, ../sass/components/content/_product-spotlight.scss */
+/* line 66, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product > img {
   position: absolute;
 }
-/* line 63, ../sass/components/content/_product-spotlight.scss */
+/* line 70, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc {
   z-index: 100;
   position: relative;
   margin: 137px 0 0 27px;
   width: 180px;
 }
-/* line 68, ../sass/components/content/_product-spotlight.scss */
+/* line 75, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc p {
   font-family: 'Arial';
   font-weight: normal;
   font-size: 14px;
   color: #999;
 }
-/* line 75, ../sass/components/content/_product-spotlight.scss */
+/* line 82, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .small-product-set {
   float: left;
   width: 50%;
 }
-/* line 79, ../sass/components/content/_product-spotlight.scss */
+/* line 86, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .seconday-product {
   position: relative;
 }
-/* line 82, ../sass/components/content/_product-spotlight.scss */
+/* line 89, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4 {
   font-family: 'Arial';
   font-size: 14px;
