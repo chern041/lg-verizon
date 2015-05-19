@@ -10,6 +10,13 @@
   padding: 1em 43px;
   display: inline-block;
   margin: 1em 0 1em 0;
+  &.pre-order-now{
+    padding: 1em 20px;
+  }
+  &.buy-now{
+    padding: 1em 58px;
+  }
 }
 .right{float:right;}
 .left{float:left;}
+.flex-reverse{flex-direction: row-reverse;}
