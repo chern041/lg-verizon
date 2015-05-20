@@ -139,15 +139,15 @@
   font-family: 'lg_smartregular';
   font-size: 16px;
 }
-/* line 37, ../sass/components/content/_slider-tab.scss */
+/* line 38, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 81px;
+  height: 87px;
 }
-/* line 44, ../sass/components/content/_slider-tab.scss */
+/* line 45, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -155,18 +155,17 @@
   color: #000;
   margin: 1.3em 0 0 0;
 }
-/* line 51, ../sass/components/content/_slider-tab.scss */
+/* line 52, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
 }
-/* line 54, ../sass/components/content/_slider-tab.scss */
+/* line 55, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 1002px;
   margin: 0 auto;
   padding: 0;
-  height: 81px;
 }
-/* line 55, ../sass/components/content/_slider-tab.scss */
+/* line 56, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
@@ -174,18 +173,19 @@
 .slider-tab .slider-nav li {
   background: url("../images/slider-nav-bg-element.png") no-repeat scroll 0px 10px transparent;
   width: 247px;
-  height: 75px;
+  height: 87px;
   padding: 6px 0 0 0;
   border-right: 1px solid #fff;
   margin: 0;
   float: left;
   list-style: none;
+  position: relative;
 }
-/* line 71, ../sass/components/content/_slider-tab.scss */
+/* line 72, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: url("../images/slider-nav-bg-element.png") no-repeat scroll 0px 10px #fff;
 }
-/* line 73, ../sass/components/content/_slider-tab.scss */
+/* line 74, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -193,27 +193,31 @@
   border-bottom: 16px solid #fff;
   border-left: 16px solid transparent;
   border-right: 16px solid transparent;
-  margin: -23px 110px;
+  margin: -22px 110px;
   position: absolute;
 }
-/* line 84, ../sass/components/content/_slider-tab.scss */
+/* line 85, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 85, ../sass/components/content/_slider-tab.scss */
+/* line 86, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
+  position: absolute;
 }
-/* line 86, ../sass/components/content/_slider-tab.scss */
+/* line 90, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
-  float: left;
+  float: right;
   font-family: 'Arial';
   font-weight: normal;
   font-size: 12px;
   color: #666;
   padding-right: 7px;
   margin-left: 13px;
+  position: absolute;
+  z-index: 100;
+  right: 0;
 }
 
 /* line 1, ../sass/components/content/_brand-message.scss */
