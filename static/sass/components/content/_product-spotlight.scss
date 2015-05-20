@@ -13,6 +13,12 @@
 		float: left;
 		margin-top: .3em;
 		margin-right: 25px;
+		&.accesories{
+			font-family: 'lg_smartlight';
+			font-size: 44px;
+			width:274px;
+			margin-right:0;
+		}
 	}
 	.section-bar{
 		position: absolute;
@@ -27,25 +33,31 @@
 		background: -ms-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
 		background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
-		&.bar-tablets{
-			p{
-				font-family:'Arial';
-				font-weight:bold;
-				font-size:18px;
-				margin: 25px 0 0 36px;
-				width: 459px;
-			}
-			.section-bar-logo{
-				float: left;
-	  			margin: 14px 0 0 0;
-			}
-		}
 		p{
 			width: 482px;
 			float: left;
 			margin-right: 10px;
 			line-height: 1.3em;
 		}
+		&.bar-tablets{
+			p{
+				font-family:'Arial';
+				font-weight:bold;
+				margin: 25px 0 0 36px;
+				width: 459px;
+				font-size:18px;
+			}
+			.section-bar-logo{
+				float: left;
+	  			margin: 14px 0 0 0;
+			}
+		}
+		&.bar-accesories{
+			p{
+				width: 385px;
+			}
+		}
+		
 		.black-button{padding: 1em 61px;}
 
 	}
