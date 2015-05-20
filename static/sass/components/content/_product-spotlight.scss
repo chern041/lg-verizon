@@ -2,6 +2,9 @@
 	position: relative;
 	clear: both;
 	margin-bottom: 22px;
+	&.tablets{
+		margin-bottom: 55px;
+	}
 	h3{
 		font-family: 'lg_smartsemibold';
 		font-size: 40px;
@@ -53,6 +56,12 @@
 	.section-content{
 		padding-top: 130px;
 		position: relative;
+		&.flex-reverse{
+			.banner-product-desc{
+				margin-right:0px;
+				margin-left:3px;
+			}
+		}
 		ul{
 			margin: 0;
   			padding: 0;
@@ -104,14 +113,12 @@
 			float:left;
 			width:50%;
 			position:relative;
-			>img{
-				position:absolute;
-			}
 		}
 		.primary-product-desc{
 			z-index: 100;
-			position: relative;
-			margin: 137px 0 0 27px;
+			position: absolute;
+			//margin: 137px 0 0 27px;
+			top:0;
 			width:180px;
 			p{
 				font-family: 'Arial';

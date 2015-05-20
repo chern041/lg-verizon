@@ -3,6 +3,16 @@
 	color:#fff;
 	height:482px;
 	clear:both;
+	&.tablets{
+		margin-bottom: 13px;
+		h2{
+			font-size: 73px;
+			font-family:'lg_smartlight';
+		}
+	}
+	.slider-content{
+		clear:both;
+	}
 	h2{
 		font-family: 'lg_smartregular';
 		font-size: 52px;
