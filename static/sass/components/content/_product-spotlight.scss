@@ -16,7 +16,7 @@
 		&.accesories{
 			font-family: 'lg_smartlight';
 			font-size: 44px;
-			width:274px;
+			min-width:274px;
 			margin-right:0;
 		}
 	}
@@ -53,6 +53,9 @@
 			}
 		}
 		&.bar-accesories{
+			&.large-title{
+				p{width: 222px;}
+			}
 			p{
 				width: 385px;
 			}

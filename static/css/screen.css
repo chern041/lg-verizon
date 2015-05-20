@@ -254,7 +254,7 @@
 .product-spotlight h3.accesories {
   font-family: 'lg_smartlight';
   font-size: 44px;
-  width: 274px;
+  min-width: 274px;
   margin-right: 0;
 }
 /* line 23, ../sass/components/content/_product-spotlight.scss */
@@ -292,49 +292,53 @@
   float: left;
   margin: 14px 0 0 0;
 }
-/* line 56, ../sass/components/content/_product-spotlight.scss */
+/* line 57, ../sass/components/content/_product-spotlight.scss */
+.product-spotlight .section-bar.bar-accesories.large-title p {
+  width: 222px;
+}
+/* line 59, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-accesories p {
   width: 385px;
 }
-/* line 61, ../sass/components/content/_product-spotlight.scss */
+/* line 64, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar .black-button {
   padding: 1em 61px;
 }
-/* line 64, ../sass/components/content/_product-spotlight.scss */
+/* line 67, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content-bg {
   z-index: 0;
   position: absolute;
 }
-/* line 68, ../sass/components/content/_product-spotlight.scss */
+/* line 71, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content {
   padding-top: 130px;
   position: relative;
 }
-/* line 72, ../sass/components/content/_product-spotlight.scss */
+/* line 75, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.flex-reverse .banner-product-desc {
   margin-right: 0px;
   margin-left: 3px;
 }
-/* line 77, ../sass/components/content/_product-spotlight.scss */
+/* line 80, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content ul {
   margin: 0;
   padding: 0;
 }
-/* line 81, ../sass/components/content/_product-spotlight.scss */
+/* line 84, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content li {
   list-style: none;
   float: left;
 }
-/* line 85, ../sass/components/content/_product-spotlight.scss */
+/* line 88, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-tablet {
   padding-top: 103px;
   display: flex;
 }
-/* line 88, ../sass/components/content/_product-spotlight.scss */
+/* line 91, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-tablet.right {
   flex-direction: row-reverse;
 }
-/* line 92, ../sass/components/content/_product-spotlight.scss */
+/* line 95, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWZlZiIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   background: -moz-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
@@ -348,19 +352,19 @@
   padding: 60px 24px 0;
   margin-right: 3px;
 }
-/* line 105, ../sass/components/content/_product-spotlight.scss */
+/* line 108, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc p {
   font-family: 'lg_smartlight';
   font-size: 24px;
   line-height: 1.3em;
 }
-/* line 110, ../sass/components/content/_product-spotlight.scss */
+/* line 113, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc ul {
   display: inline-block;
   margin-bottom: 35px;
   margin-left: 16px;
 }
-/* line 115, ../sass/components/content/_product-spotlight.scss */
+/* line 118, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc li {
   list-style: disc;
   font-family: 'Arial';
@@ -368,39 +372,39 @@
   color: #999;
   line-height: 1.4em;
 }
-/* line 124, ../sass/components/content/_product-spotlight.scss */
+/* line 127, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product {
   float: left;
   width: 50%;
   position: relative;
 }
-/* line 129, ../sass/components/content/_product-spotlight.scss */
+/* line 132, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc {
   z-index: 100;
   position: absolute;
   top: 0;
   width: 180px;
 }
-/* line 135, ../sass/components/content/_product-spotlight.scss */
+/* line 138, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc p {
   font-family: 'Arial';
   font-weight: normal;
   font-size: 14px;
   color: #999;
 }
-/* line 142, ../sass/components/content/_product-spotlight.scss */
+/* line 145, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .small-product-set {
   width: 50%;
 }
-/* line 145, ../sass/components/content/_product-spotlight.scss */
+/* line 148, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .medium-product-set {
   width: 85%;
 }
-/* line 148, ../sass/components/content/_product-spotlight.scss */
+/* line 151, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .seconday-product {
   position: relative;
 }
-/* line 151, ../sass/components/content/_product-spotlight.scss */
+/* line 154, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4 {
   font-family: 'Arial';
   font-size: 14px;
