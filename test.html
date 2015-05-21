@@ -1,0 +1,436 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!--[if gte IE 9]>
+          <style type="text/css">.gradient {ilter: none;}</style>
+        <![endif]-->
+        <script src="static/js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+
+
+
+
+
+
+
+
+
+        .product-spotlight {
+          position: relative;
+          clear: both;
+          margin-bottom: 66px;
+          display: -webkit-box;
+          /* OLD - iOS 6-, Safari 3.1-6 */
+          display: -moz-box;
+          /* OLD - Firefox 19- (buggy but mostly works) */
+          display: -ms-flexbox;
+          /* TWEENER - IE 10 */
+          display: -webkit-flex;
+          /* NEW - Chrome */
+          display: flex;
+          /* NEW, Spec - Opera 12.1, Firefox 20+ */
+        }
+        /* line 10, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight.tablets {
+          margin-bottom: 55px;
+        }
+        /* line 13, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight.accessories {
+          margin-bottom: 43px;
+        }
+        /* line 18, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight.smartphones .section-content .medium-product-set {
+          width: 75%;
+        }
+        /* line 21, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight.smartphones .section-content .banner-product-desc {
+          padding-top: 0;
+        }
+        /* line 26, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight h3 {
+          font-family: 'lg_smartsemibold';
+          font-size: 40px;
+          margin: 0;
+          padding: 0;
+          float: left;
+          margin-top: .3em;
+          margin-right: 25px;
+        }
+        /* line 34, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight h3.accesories {
+          font-family: 'lg_smartlight';
+          font-size: 44px;
+          margin-right: 0;
+        }
+        /* line 40, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar {
+          position: absolute;
+          z-index: 100;
+          width: 100%;
+          color: #fff;
+          background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjciLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjciLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+          background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.7)), color-stop(100%, rgba(0, 0, 0, 0.7)));
+          background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+          background: -o-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+          background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
+        }
+        /* line 53, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar p {
+          margin-right: 10px;
+          line-height: 1.3em;
+        }
+        /* line 58, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar.bar-tablets p {
+          font-family: 'Arial';
+          font-weight: bold;
+          margin: 25px 0 0 36px;
+          font-size: 18px;
+          float: left;
+        }
+        /* line 65, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar.bar-tablets .section-bar-logo {
+          float: left;
+          margin: 14px 0 0 0;
+        }
+        /* line 71, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar.bar-accesories .section-bar-logo {
+          margin: 22px 0 0 0;
+        }
+        /* line 76, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar.bar-overview h3 {
+          float: left;
+        }
+        /* line 79, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar.bar-overview p {
+          float: left;
+          max-width: 515px;
+        }
+        /* line 84, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-bar .black-button {
+          float: right;
+        }
+        /* line 89, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content-bg {
+          z-index: 0;
+          position: absolute;
+        }
+        /* line 93, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content {
+          padding-top: 130px;
+          position: relative;
+          display: flex;
+        }
+        /* line 98, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content.flex-reverse .banner-product-desc {
+          margin-right: 0px;
+          margin-left: 3px;
+        }
+        /* line 103, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content ul {
+          margin: 0;
+          padding: 0;
+        }
+        /* line 107, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content li {
+          list-style: none;
+          float: left;
+        }
+        /* line 111, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content.content-tablet {
+          padding-top: 103px;
+        }
+        /* line 113, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content.content-tablet.right {
+          flex-direction: row-reverse;
+        }
+        /* line 117, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content.content-accessories {
+          padding-top: 114px;
+        }
+        /* line 119, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content.content-accessories .banner-product-desc {
+          width: 214px;
+          padding: 42px 23px 0;
+        }
+        /* line 125, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .banner-product-desc {
+          background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWZlZiIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+          background: -moz-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(238, 239, 239, 0.8)), color-stop(2%, rgba(238, 239, 239, 0.8)), color-stop(100%, rgba(238, 239, 239, 0.8)));
+          background: -webkit-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
+          background: -o-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
+          background: -ms-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
+          background: linear-gradient(to bottom, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cceeefef', endColorstr='#cceeefef',GradientType=0 );
+          width: 187px;
+          padding: 60px 24px 0;
+          margin-right: 3px;
+        }
+        /* line 138, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .banner-product-desc p {
+          font-family: 'lg_smartlight';
+          font-size: 24px;
+          line-height: 1.3em;
+        }
+        /* line 143, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .banner-product-desc ul {
+          display: inline-block;
+          margin-bottom: 35px;
+          margin-left: 16px;
+        }
+        /* line 148, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .banner-product-desc li {
+          list-style: disc;
+          font-family: 'Arial';
+          font-size: 12px;
+          color: #999;
+          line-height: 1.4em;
+        }
+        /* line 157, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .primary-product {
+          float: left;
+          width: 50%;
+          position: relative;
+        }
+        /* line 162, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .primary-product-desc {
+          z-index: 100;
+          position: absolute;
+          top: 0;
+          width: 180px;
+        }
+        /* line 168, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .primary-product-desc.overview {
+          margin: 137px 0 0 27px;
+        }
+        /* line 170, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .primary-product-desc.overview.top-left {
+          margin: 39px 0 0 49px;
+        }
+        /* line 174, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .primary-product-desc p {
+          font-family: 'Arial';
+          font-weight: normal;
+          font-size: 14px;
+          color: #999;
+        }
+        /* line 181, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .small-product-set {
+          width: 50%;
+        }
+        /* line 184, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .medium-product-set {
+          width: 85%;
+        }
+        /* line 187, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content .seconday-product {
+          position: relative;
+        }
+        /* line 190, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content h4 {
+          font-family: 'Arial';
+          font-size: 14px;
+          font-weight: normal;
+          color: #666;
+          z-index: 100;
+          position: absolute;
+          margin: 96px 0 0 15px;
+        }
+        /* line 198, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content h4.top-left {
+          margin: 20px 0 0 20px;
+        }
+        /* line 199, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content h4.bottom-left {
+          bottom: 28px;
+          margin-left: 20px;
+          width: 127px;
+        }
+        /* line 204, ../sass/components/content/_product-spotlight.scss */
+        .product-spotlight .section-content h4.bottom-right {
+          bottom: 28px;
+          width: 127px;
+          right: 0;
+        }
+/* DE AQUI A ABAJO ES EL CODIGO DE EL EJEMPLO DE LA PAGINA */
+        .page-wrap {
+          display: -webkit-box;           /* OLD - iOS 6-, Safari 3.1-6 */
+          display: -moz-box;              /* OLD - Firefox 19- (doesn't work very well) */
+          display: -ms-flexbox;           /* TWEENER - IE 10 */
+          display: -webkit-flex;          /* NEW - Chrome */
+          display: flex;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+         }
+
+        .main-content {
+          -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
+          -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
+          -ms-flex-order: 2;              /* TWEENER - IE 10 */
+          -webkit-order: 2;               /* NEW - Chrome */
+          order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+          
+          width: 60%;                     /* No flex here, other cols take up remaining space */
+          
+          -moz-box-flex: 1;               /* Without this, Firefox 19- expands to widest paragraph, overrides width */
+          
+          background: white;
+        }
+
+        .main-nav {
+          -webkit-box-ordinal-group: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+          -moz-box-ordinal-group: 1;      /* OLD - Firefox 19- */
+          -ms-flex-order: 1;              /* TWEENER - IE 10 */
+          -webkit-order: 1;               /* NEW - Chrome */
+          order: 1;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+          
+          -webkit-box-flex: 1;            /* OLD - iOS 6-, Safari 3.1-6 */
+          -moz-box-flex: 1;               /* OLD - Firefox 19- */
+          width: 20%;                     /* For old syntax, otherwise collapses. */
+          -webkit-flex: 1;                /* Chrome */
+          -ms-flex: 1;                    /* IE 10 */
+          flex: 1;                        /* NEW, Spec - Opera 12.1, Firefox 20+ */
+          
+          background: #ccc;
+        }
+
+        .main-sidebar {
+          -webkit-box-ordinal-group: 3;   /* OLD - iOS 6-, Safari 3.1-6 */
+          -moz-box-ordinal-group: 3;      /* OLD - Firefox 19- */
+          -ms-flex-order: 3;              /* TWEENER - IE 10 */
+          -webkit-order: 3;               /* NEW - Chrome */
+          order: 3;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+          
+          -webkit-box-flex: 1;            /* OLD - iOS 6-, Safari 3.1-6 */
+          -moz-box-flex: 1;               /* Firefox 19- */
+          width: 20%;                     /* For OLD syntax, otherwise collapses. */
+          -ms-flex: 1;                    /* TWEENER - IE 10 */
+          -webkit-flex: 1;                /* NEW - Chrome */
+          flex: 1;                        /* NEW, Spec - Opera 12.1, Firefox 20+ */
+          
+          background: #ccc;
+        }
+
+        .main-content,
+        .main-sidebar,
+        .main-nav {
+          padding: 1em;
+        }
+
+        body {
+          padding: 2em;
+          background: #79a693;
+        }
+        * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        h1, h2 {
+          font: bold 2em Sans-Serif;
+          margin: 0 0 1em 0;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+        p {
+          margin: 0 0 1em 0;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header></header>
+        <div class="main-content main-wrapper">
+            <div class="product-spotlight">
+                <div class="section-bar bar-tablets bar-accesories">
+                    <section class="secondary-wrapper">
+                        <h3 class="accesories">Quick Cover Case</h3>
+                        <p>
+                            Sleek meets strength
+                        </p>
+                        <a class="black-button" href="#">BUY NOW</a>
+                    </section>
+                </div>
+                <img class="section-content-bg" src="static/images/content/accesories-lg-quickcase-bg.jpg"/>
+                <section class="section-content secondary-wrapper content-accessories">
+                    <section class="banner-product-desc">
+                        <p>
+                            A good tablet goes everywhere with you, so you need reliable protection that still looks great.
+                        </p>
+                        <ul>
+                            <li>Lorem ipsum dipsum LCD display for a bigger, brighter picture</li>
+                            <li>Lorem ipsum dipsum glass 3 for dpendable durability</li>
+                            <li>Lorem Ipsum dipmerea lets you take stunning selfies</li>
+                        </ul>
+                        <a class="black-button pre-order-now" href="#">pre-order now</a>
+                    </section>
+                    <div class="medium-product-set">
+                        <ul>
+                            <li>
+                                <div class="seconday-product">
+                                    <img src="static/images/content/accesories-lg-quickcover1.jpg"/>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="seconday-product">
+                                    <img src="static/images/content/accesories-lg-quickcover2.jpg"/>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="seconday-product">
+                                    <img src="static/images/content/accesories-lg-quickcover3.jpg"/>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>  
+            <div class="page-wrap">
+              <section class="main-content">
+                <h1>Main Content</h1>
+                <p><strong>I'm first in the source order.</strong></p>
+                <p>The key to victory is discipline, and that means a well made bed. You will practice until you can make your bed in your sleep. Fry, we have a crate to deliver. Hey, guess what you're accessories to.</p>
+                <p>I'll get my kit! That's not soon enough! Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man.</p>
+              </section>
+              
+              <nav class="main-nav">
+                <h2>Nav</h2>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Clients</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </nav>
+              
+              <aside class="main-sidebar">
+                <h2>Sidebar</h2>
+                <p>I am a rather effortless column of equal height.</p>
+              </aside>
+                
+            </div>
+         </div> 
+         <footer></footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+</html>
