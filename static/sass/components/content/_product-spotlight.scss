@@ -2,7 +2,11 @@
 	position: relative;
 	clear: both;
 	margin-bottom: 66px;
-	display:flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	&.tablets{
 		margin-bottom: 55px;
 	}
@@ -68,8 +72,16 @@
 				margin: 22px 0 0 0;
 			}
 		}
+		&.bar-overview{
+			h3{
+				float: left;
+			}
+			p{
+				float: left;
+				max-width: 515px;
+			}
+		}
 		.black-button{
-			padding: 1em 61px;
 			float: right;
 		}
 
