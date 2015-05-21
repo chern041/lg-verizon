@@ -5,10 +5,42 @@
 	clear:both;
 	&.tablets{
 		margin-bottom: 13px;
-		h2{
-			font-size: 73px;
+		h1{
+			font-size: 71px;
 			font-family:'lg_smartlight';
+			font-weight:normal;
 		}
+		.slider-description{
+			margin:10px 0 0 217px;
+		}
+	}
+	&.accessories{
+		  margin-bottom: 22px;
+		.slider-description{
+			bottom: 0;
+  			margin: 0 0 61px 180px;
+		}
+	}
+	&.smartphones{
+		margin-bottom: 21px;
+		h2{
+			font-family: 'lg_smartlight';
+			font-size: 49px;
+			font-weight: normal;
+			line-height: 0.1em;
+		}
+		h3, p, ul{
+			font-family: 'lg_smartlight';
+			font-weight: normal;
+			width: 205px;
+		}
+		h3{font-size: 22px;}
+		p, ul{font-size: 18px;}
+		ul{
+			list-style:none;
+			padding: 0;
+		}
+
 	}
 	.slider-content{
 		clear:both;
@@ -17,7 +49,6 @@
 		font-family: 'lg_smartregular';
 		font-size: 52px;
 		font-weight: normal;
-		line-height: 0;
 	}
 	
 	.slider-bg{
@@ -32,6 +63,10 @@
 		p{
 			font-family: 'lg_smartregular';
 			font-size:16px;
+		}
+		&.smartphones{
+			color:#333;
+			margin: 35px 0 0 199px;
 		}
 	}
 	$slider-nav-height: 87px;

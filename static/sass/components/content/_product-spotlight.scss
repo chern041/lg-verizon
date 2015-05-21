@@ -6,6 +6,19 @@
 	&.tablets{
 		margin-bottom: 55px;
 	}
+	&.accessories{
+		margin-bottom: 43px;
+	}
+	&.smartphones{
+		.section-content{
+			.medium-product-set{
+				width:75%;
+			}
+			.banner-product-desc{
+				padding-top:0;
+			}
+		}
+	}
 	h3{
 		font-family: 'lg_smartsemibold';
 		font-size: 40px;
@@ -17,7 +30,6 @@
 		&.accesories{
 			font-family: 'lg_smartlight';
 			font-size: 44px;
-			min-width:274px;
 			margin-right:0;
 		}
 	}
@@ -35,8 +47,6 @@
 		background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
 		p{
-			width: 482px;
-			float: left;
 			margin-right: 10px;
 			line-height: 1.3em;
 		}
@@ -45,8 +55,8 @@
 				font-family:'Arial';
 				font-weight:bold;
 				margin: 25px 0 0 36px;
-				width: 459px;
 				font-size:18px;
+				float:left;
 			}
 			.section-bar-logo{
 				float: left;
@@ -54,15 +64,14 @@
 			}
 		}
 		&.bar-accesories{
-			&.large-title{
-				p{width: 222px;}
-			}
-			p{
-				width: 385px;
+			.section-bar-logo{
+				margin: 22px 0 0 0;
 			}
 		}
-		
-		.black-button{padding: 1em 61px;}
+		.black-button{
+			padding: 1em 61px;
+			float: right;
+		}
 
 	}
 	.section-content-bg{
@@ -72,6 +81,7 @@
 	.section-content{
 		padding-top: 130px;
 		position: relative;
+		display: flex;
 		&.flex-reverse{
 			.banner-product-desc{
 				margin-right:0px;
@@ -88,11 +98,18 @@
 		}
 		&.content-tablet{
 			padding-top: 103px;
-			display: flex;
 			&.right{
 				 flex-direction: row-reverse;
 			}
 		}
+		&.content-accessories{
+			padding-top: 114px;   
+  			.banner-product-desc{
+  				width: 214px;
+  				padding: 42px 23px 0;
+  			}
+		}
+
 		.banner-product-desc{
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWZlZiIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
 			background: -moz-linear-gradient(top,  rgba(238,239,239,0.8) 0%, rgba(238,239,239,0.8) 2%, rgba(238,239,239,0.8) 100%);
