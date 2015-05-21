@@ -23,15 +23,17 @@
         <![endif]-->
         <header></header>
         <div class="main-content main-wrapper">
-            <nav class="secondary-nav secondary-wrapper">
-                <img class="lg-logo" src="static/images/lg-logo.jpg"/>
-                <ul>
-                    <li><a href="overview.html">Overview</a></li>
-                    <li><a href="smartphones.html">Smartphones</a></li>
-                    <li><a href="tablets.html" class="active">Tablets</a></li>
-                    <li><a href="accesories.html">Accessories</a></li>
-                </ul>
-                <a class="why-verizon" href="#">why verizon</a>
+            <nav class="secondary-nav">
+                <div class="secondary-wrapper">
+                    <img class="lg-logo" src="static/images/lg-logo.jpg"/>
+                    <ul>
+                        <li><a href="overview.html">Overview</a></li>
+                        <li><a href="smartphones.html" class="active">Smartphones</a></li>
+                        <li><a href="tablets.html">Tablets</a></li>
+                        <li><a href="accesories.html">Accessories</a></li>
+                    </ul>
+                    <a class="why-verizon" href="#">why verizon</a>
+                </div>
             </nav>
             <div class="slider-tab tablets">
                 <div class="slider-content">
@@ -102,5 +104,15 @@
 
         <script src="static/js/plugins.js"></script>
         <script src="static/js/main.js"></script>
+        <script>
+            var num = 200; //number of pixels before modifying styles
+            $(window).bind('scroll', function () {
+                if ($(window).scrollTop() > num) {
+                    $('.secondary-nav').addClass('sticky-nav');
+                } else {
+                    $('.secondary-nav').removeClass('sticky-nav');
+                }
+            });
+        </script>
     </body>
 </html>

@@ -100,6 +100,15 @@
   color: #bd0f52;
 }
 
+/* line 24, ../sass/components/global/_elements.scss */
+.sticky-nav {
+  position: fixed;
+  z-index: 500;
+  margin: 0;
+  left: 0;
+  width: 100%;
+}
+
 /* line 1, ../sass/components/content/_slider-tab.scss */
 .slider-tab {
   position: relative;
@@ -531,7 +540,7 @@
 
 /* line 1, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav {
-  background: red;
+  background: #fff;
 }
 /* line 3, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav.secondary-wrapper {
