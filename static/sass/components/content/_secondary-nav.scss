@@ -1,6 +1,14 @@
 .secondary-nav{
 	background:#fff;
+	position: relative;
 	&.secondary-wrapper{width:960px;}
+	&.sticky-nav{
+	  position: fixed;
+	  z-index: 500;
+	  margin: 0;
+	  left: 0;
+	  width:100%;
+	}
 	a{text-decoration:none;}
 	.lg-logo{float:left;}
 	.active{

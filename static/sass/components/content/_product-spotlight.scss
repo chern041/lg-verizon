@@ -109,7 +109,9 @@
 			float: left;
 			margin: 0 3px 0 0;
 		}
-		
+		&.content-overview{
+
+		}
 		&.content-tablet{
 			padding-top: 103px;
 			&.right{
@@ -159,8 +161,8 @@
 
 		.primary-product{
 			float:left;
-			width:50%;
 			position:relative;
+			margin: 0 3px 0 0;
 		}
 		.primary-product-desc{
 			z-index: 100;
