@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        <link rel="stylesheet" href="static/css/normalize.min.css">
         <link rel="stylesheet" href="static/css/screen.css">
         <!--[if gte IE 9]>
           <style type="text/css">.gradient {ilter: none;}</style>
@@ -37,7 +37,7 @@
             </nav>
             <div class="slider-tab smartphones">
                 <div class="slider-content">
-                    <img class="slider-bg" src="static/images/content/smartphone-lg-smartphones-extrabattery-bg.jpg"/>
+                    <img class="slider-bg" src="static/images/content/smartphone-page/smartphones-hero-lg-g4.jpg"/>
                     <section class="slider-desc-bottom-right">
                         <section class="slider-description smartphones">
                             <h2>Extra battery.</h2>
@@ -60,7 +60,7 @@
             <div class="product-spotlight smartphones">
                 <div class="section-bar bar-tablets">
                     <section class="secondary-wrapper">
-                        <img class="section-bar-logo" src="static/images/content/smartphone-page/smartphones-lg-gvista-logo.png"/>
+                        <img class="section-bar-logo" src="static/images/content/smartphone-page/smartphones-lg-g4-logo.png"/>
                             <p>
                                 The Future Looks Good
                             </p>
@@ -79,7 +79,7 @@
                                 <li>Quad-core processor to easily run your favorite apps</li>
                             </ul>
                             <a class="black-button pre-order-now" href="#">pre-order now</a>
-                    </section>
+                        </section>
                         <div class="medium-product-set">
                             <ul>
                                 <li>
@@ -334,11 +334,24 @@
                     </div>
                 </section>
             </div> 
-         </div>   
-         <footer></footer>
+        </div>
+        <footer></footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
         <script src="static/js/plugins.js"></script>
         <script src="static/js/main.js"></script>
+        <script>
+            var num = 200; //number of pixels before modifying styles
+            $(window).bind('scroll', function () {
+                if ($(window).scrollTop() > num) {
+                    $('.secondary-nav').addClass('sticky-nav');
+                    $('.secondary-nav').fadeIn();
+                } else {
+                    $('.secondary-nav').removeClass('sticky-nav');
+                    $('.secondary-nav').fadeOut();
+                }
+            });
+        </script>
     </body>
 </html>
