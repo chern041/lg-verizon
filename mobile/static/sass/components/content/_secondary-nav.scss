@@ -1,0 +1,37 @@
+.secondary-nav{
+	background:#fff;
+	position: relative;
+	&.secondary-wrapper{width:960px;}
+	&.sticky-nav{
+	  position: fixed;
+	  z-index: 500;
+	  margin: 0;
+	  left: 0;
+	  width:100%;
+	}
+	a{text-decoration:none;}
+	.lg-logo{float:left;}
+	.active{
+		color:#000;
+		font-family: 'lg_smartsemibold';
+	}
+	ul{
+		float: left;
+		list-style: none;
+		font-size: 24px;
+		font-family: 'lg_smartlight';
+		padding: 0;
+		margin: 50px 0 0 112px;
+		a{color:#999;}
+	}
+	li{
+		float:left;
+		margin-right: 40px;
+	}
+	.why-verizon{
+		float:right;
+		text-transform: uppercase;
+		color:#666;
+		margin: 7px 0 0 0;
+	}
+}
