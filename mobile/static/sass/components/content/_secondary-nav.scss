@@ -1,6 +1,7 @@
 .secondary-nav{
-	background:#fff;
 	position: relative;
+	height: 153px;
+	background:#FFF;
 	&.secondary-wrapper{width:960px;}
 	&.sticky-nav{
 	  position: fixed;
@@ -14,24 +15,33 @@
 	.active{
 		color:#000;
 		font-family: 'lg_smartsemibold';
+		display:block;
 	}
 	ul{
-		float: left;
 		list-style: none;
-		font-size: 24px;
+		font-size: 48px;
 		font-family: 'lg_smartlight';
-		padding: 0;
-		margin: 50px 0 0 112px;
+		margin: 62px 0 0 0;
+		padding: .2em 68px;
+		border: 3px solid #eeefef;
+		z-index: 500;
+		position: absolute;
+		right: 0;
+		background:#FFF;
 		a{color:#999;}
 	}
 	li{
-		float:left;
 		margin-right: 40px;
+		a{display:none;}
 	}
 	.why-verizon{
 		float:right;
 		text-transform: uppercase;
 		color:#666;
 		margin: 7px 0 0 0;
+		position: absolute;
+		right:0;
+		font-size:28px;
+
 	}
 }

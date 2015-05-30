@@ -1,7 +1,7 @@
 .slider-tab{
 	position: relative;
 	color:#fff;
-	height:482px;
+	height:487px;
 	clear:both;
 	&.tablets{
 		margin-bottom: 13px;
@@ -53,22 +53,27 @@
 	}
 	
 	.slider-bg{
-		z-index:0;
+		z-index:-1;
 		position: absolute;
 	}
 	.slider-description{
-		width:380px;
+		width:425px;
 		z-index:100;
 		margin: 57px 0 0 199px;
 		position:absolute;
+		&.dark-font{
+			color:#000;
+		}
 		p{
 			font-family: 'lg_smartregular';
 			font-size:16px;
+			width:330px;
 		}
 		&.smartphones{
 			color:#333;
 			margin: 35px 0 0 199px;
 		}
+		//.small-font{font-size: 9px;}
 	}
 	$slider-nav-height: 87px;
 	.slider-nav{
@@ -95,7 +100,6 @@
   			padding: 0;
 		}
 		li{
-			background: url("../images/slider-nav-bg-element.png") no-repeat scroll 0px 10px transparent;
 			width: 247px;
 			height: $slider-nav-height;
 			padding: 6px 0 0 0;
@@ -106,7 +110,7 @@
 			position: relative;
 		}
 		.active{
-			background: url("../images/slider-nav-bg-element.png") no-repeat scroll 0px 10px #fff;
+			background:#FFF;
 			&:before{
 				border-top-color: #fff;
 				content: "";

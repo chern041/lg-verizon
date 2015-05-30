@@ -1,12 +1,12 @@
+@-ms-viewport{
+  width: device-width;
+}
 .main-wrapper{
-	width:1280px;
+	width:750px;
 	margin:0 auto;
-	&.sticky-nav{
-		padding-top:88px;
-	}
 }
 .secondary-wrapper{
-	//width: 905px;
-	width:920px;
+	width:660px;
 	margin: 0 auto;
+	position: relative;
 }

@@ -1,31 +1,37 @@
 .slider-tab{
 	position: relative;
 	color:#fff;
-	height:482px;
+	height:437px;
 	clear:both;
 	&.tablets{
 		margin-bottom: 13px;
 		h1{
-			font-size: 71px;
+			font-size: 65px;
 			font-family:'lg_smartlight';
 			font-weight:normal;
+			color:#333;
 		}
 		.slider-description{
-			margin:10px 0 0 217px;
+			margin: 0 0 0 120px;
 		}
 	}
 	&.accessories{
-		  margin-bottom: 22px;
+		 margin-bottom: 10px;
+		 h1{
+		 	color:#FFF;
+		 	font-size:56px;
+		 	font-family:'lg_smartregular';
+		 }
 		.slider-description{
 			bottom: 0;
-  			margin: 0 0 61px 180px;
+  			margin: 0 0 121px 49px;
 		}
 	}
 	&.smartphones{
 		margin-bottom: 21px;
 		h2{
 			font-family: 'lg_smartlight';
-			font-size: 49px;
+			font-size: 65px;
 			font-weight: normal;
 			line-height: 0.1em;
 		}
@@ -59,15 +65,16 @@
 	.slider-description{
 		width:380px;
 		z-index:100;
-		margin: 57px 0 0 199px;
+		margin: 47px 0 0 50px;
 		position:absolute;
+		img{margin: 0 0 26px 0;}
 		p{
 			font-family: 'lg_smartregular';
 			font-size:16px;
 		}
 		&.smartphones{
 			color:#333;
-			margin: 35px 0 0 199px;
+			margin: 30px 0 0 74px;
 		}
 	}
 	$slider-nav-height: 87px;

@@ -1,0 +1,150 @@
+.slider-tab{
+	position: relative;
+	color:#fff;
+	height:401px;
+	clear:both;
+	&.overview{
+		height:468px;
+	}
+	&.tablets{
+		margin-bottom: 17px;
+		h1{
+			font-size: 71px;
+			font-family:'lg_smartlight';
+			font-weight:normal;
+		}
+		.slider-description{
+			margin:0 0 0 168px;
+		}
+	}
+	&.accessories{
+		  margin-bottom: 22px;
+		.slider-description{
+			bottom: 0;
+  			margin: 0 0 61px 180px;
+		}
+	}
+	&.smartphones{
+		margin-bottom: 21px;
+		h2{
+			font-family: 'lg_smartlight';
+			font-size: 49px;
+			font-weight: normal;
+			line-height: 0.1em;
+		}
+		h3, p, ul{
+			font-family: 'lg_smartlight';
+			font-weight: normal;
+			width: 205px;
+		}
+		h3{
+			font-size: 22px;
+  			margin: 0;
+  			line-height: 0;
+		}
+		p, ul{font-size: 18px;}
+		ul{
+			list-style:none;
+			padding: 0;
+			margin: 0;
+		}
+
+	}
+	.slider-content{
+		clear:both;
+	}
+	h2{
+		font-family: 'lg_smartregular';
+		font-size: 52px;
+		font-weight: normal;
+		line-height: 0;
+	}
+	
+	.slider-bg{
+		z-index:0;
+		position: absolute;
+	}
+	.slider-description{
+		width:380px;
+		z-index:100;
+		margin: 49px 0 0 159px;
+		position:absolute;
+		p{
+			font-family: 'lg_smartregular';
+			font-size:16px;
+		}
+		&.smartphones{
+			color:#333;
+			margin: 16px 0 0 135px;
+		}
+	}
+	$slider-nav-height: 68px;
+	.slider-nav{
+		background:#ccc;
+		position:absolute;
+		bottom:0;
+		width: 100%;
+		height: $slider-nav-height;
+
+		h3{
+			font-family: 'Arial';
+			font-weight: bold;
+			font-size: 12px;
+			color: #000;
+			margin:.5em 0 0 0;
+		}
+		p{
+			margin:0;
+			font-size:9px;
+		}
+		ul{
+			>:first-child{border-left: 1px solid #fff;}
+  			width: 775px;
+  			margin: 0 auto;
+  			padding: 0;
+		}
+		li{
+			width: 190px;
+			height: $slider-nav-height;
+			padding: 6px 0 0 0;
+			border-right: 1px solid #fff;
+			margin: 0;
+			float: left;
+			list-style: none;
+			position: relative;
+		}
+		.active{
+			background:#FFF;
+			&:before{
+				border-top-color: #fff;
+				content: "";
+				z-index: 1000;
+				border-bottom: 16px solid #fff;
+				border-left: 16px solid transparent;
+				border-right: 16px solid transparent;
+				margin: -21px 82px;
+				position: absolute;
+			}
+		}
+		a{float:none;}
+		img{
+			float: left;
+			position:absolute;
+		}
+		.slider-nav-desc{
+			width: 94px;
+			float: right;
+			font-family: 'Arial';
+			font-weight: normal;
+			font-size: 12px;
+			color: #666;
+			padding-right: 7px;
+			margin-left: 13px;
+			position:absolute;
+			z-index: 100;
+			right: 0;
+		}
+
+
+	}
+}

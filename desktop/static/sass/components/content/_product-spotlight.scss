@@ -58,7 +58,6 @@
 		&.bar-tablets{
 			p{
 				font-family:'Arial';
-				font-weight:bold;
 				margin: 25px 0 0 36px;
 				font-size:18px;
 				float:left;
@@ -154,7 +153,7 @@
   			  list-style: disc;
 			  font-family: 'Arial';
 			  font-size: 12px;
-			  color: #999;
+			  color: #666;
 			  line-height: 1.4em;
   			}
 		}
@@ -167,7 +166,6 @@
 		.primary-product-desc{
 			z-index: 100;
 			position: absolute;
-			
 			top:0;
 			width:180px;
 			&.overview{
@@ -180,8 +178,9 @@
 				font-family: 'Arial';
 				font-weight: normal;
 				font-size: 14px;
-				color: #999;
+				color: #666;
 			}
+			.small-font{font-size: 9px;}
 		}
 		.small-product-set{
 			width:50%;
