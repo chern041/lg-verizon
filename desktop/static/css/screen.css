@@ -150,7 +150,7 @@ a {
   font-family: 'lg_smartlight';
   font-size: 49px;
   font-weight: normal;
-  line-height: 0.1em;
+  line-height: 1em;
 }
 /* line 32, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3, .slider-tab.smartphones p, .slider-tab.smartphones ul {
