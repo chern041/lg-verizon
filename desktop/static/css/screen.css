@@ -180,36 +180,37 @@ a {
   font-family: 'lg_smartregular';
   font-size: 52px;
   font-weight: normal;
-  line-height: 0;
+  line-height: 1em;
+  margin: 0;
 }
-/* line 55, ../sass/components/content/_slider-tab.scss */
+/* line 56, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-bg {
   z-index: -1;
   position: absolute;
 }
-/* line 59, ../sass/components/content/_slider-tab.scss */
+/* line 60, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description {
   width: 425px;
   z-index: 100;
   margin: 57px 0 0 199px;
   position: absolute;
 }
-/* line 64, ../sass/components/content/_slider-tab.scss */
+/* line 65, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.dark-font {
   color: #000;
 }
-/* line 67, ../sass/components/content/_slider-tab.scss */
+/* line 68, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description p {
   font-family: 'lg_smartregular';
   font-size: 16px;
   width: 330px;
 }
-/* line 72, ../sass/components/content/_slider-tab.scss */
+/* line 73, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.smartphones {
   color: #333;
   margin: 35px 0 0 199px;
 }
-/* line 79, ../sass/components/content/_slider-tab.scss */
+/* line 80, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
@@ -217,7 +218,7 @@ a {
   width: 100%;
   height: 87px;
 }
-/* line 86, ../sass/components/content/_slider-tab.scss */
+/* line 87, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -225,21 +226,21 @@ a {
   color: #000;
   margin: 1.3em 0 0 0;
 }
-/* line 93, ../sass/components/content/_slider-tab.scss */
+/* line 94, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
 }
-/* line 96, ../sass/components/content/_slider-tab.scss */
+/* line 97, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 1002px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 97, ../sass/components/content/_slider-tab.scss */
+/* line 98, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
-/* line 102, ../sass/components/content/_slider-tab.scss */
+/* line 103, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav li {
   width: 247px;
   height: 87px;
@@ -250,11 +251,11 @@ a {
   list-style: none;
   position: relative;
 }
-/* line 112, ../sass/components/content/_slider-tab.scss */
+/* line 113, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 114, ../sass/components/content/_slider-tab.scss */
+/* line 115, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -265,16 +266,16 @@ a {
   margin: -22px 110px;
   position: absolute;
 }
-/* line 125, ../sass/components/content/_slider-tab.scss */
+/* line 126, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 126, ../sass/components/content/_slider-tab.scss */
+/* line 127, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 130, ../sass/components/content/_slider-tab.scss */
+/* line 131, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;
@@ -332,11 +333,7 @@ a {
 .product-spotlight.smartphones .section-content .medium-product-set {
   width: 77%;
 }
-/* line 21, ../sass/components/content/_product-spotlight.scss */
-.product-spotlight.smartphones .section-content .banner-product-desc {
-  padding-top: 0;
-}
-/* line 26, ../sass/components/content/_product-spotlight.scss */
+/* line 23, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight h3 {
   font-family: 'lg_smartsemibold';
   font-size: 40px;
@@ -346,14 +343,14 @@ a {
   margin-top: .3em;
   margin-right: 25px;
 }
-/* line 34, ../sass/components/content/_product-spotlight.scss */
+/* line 31, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight h3.accesories {
   font-family: 'lg_smartlight';
   font-size: 44px;
   margin-right: 0;
   font-weight: normal;
 }
-/* line 41, ../sass/components/content/_product-spotlight.scss */
+/* line 38, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar {
   position: absolute;
   z-index: 100;
@@ -368,88 +365,88 @@ a {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
 }
-/* line 54, ../sass/components/content/_product-spotlight.scss */
+/* line 51, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar p {
   margin-right: 10px;
   line-height: 1.3em;
 }
-/* line 59, ../sass/components/content/_product-spotlight.scss */
+/* line 56, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-tablets p {
   font-family: 'Arial';
   margin: 25px 0 0 36px;
   font-size: 18px;
   float: left;
 }
-/* line 65, ../sass/components/content/_product-spotlight.scss */
+/* line 62, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-tablets .section-bar-logo {
   float: left;
   margin: 14px 0 0 0;
 }
-/* line 71, ../sass/components/content/_product-spotlight.scss */
+/* line 68, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-accesories .section-bar-logo {
   margin: 22px 0 0 0;
 }
-/* line 76, ../sass/components/content/_product-spotlight.scss */
+/* line 73, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-overview h3 {
   float: left;
 }
-/* line 79, ../sass/components/content/_product-spotlight.scss */
+/* line 76, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-overview p {
   float: left;
   max-width: 515px;
 }
-/* line 84, ../sass/components/content/_product-spotlight.scss */
+/* line 81, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar .black-button {
   float: right;
 }
-/* line 89, ../sass/components/content/_product-spotlight.scss */
+/* line 86, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content-bg {
   z-index: 0;
   position: absolute;
 }
-/* line 93, ../sass/components/content/_product-spotlight.scss */
+/* line 90, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content {
   padding-top: 130px;
   position: relative;
   display: flex;
 }
-/* line 98, ../sass/components/content/_product-spotlight.scss */
+/* line 95, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.flex-reverse .banner-product-desc {
   margin: 0px;
 }
-/* line 102, ../sass/components/content/_product-spotlight.scss */
+/* line 99, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content ul {
   margin: 0;
   padding: 0;
 }
-/* line 106, ../sass/components/content/_product-spotlight.scss */
+/* line 103, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content li {
   list-style: none;
   float: left;
   margin: 0 3px 0 0;
 }
-/* line 114, ../sass/components/content/_product-spotlight.scss */
+/* line 111, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-tablet {
   padding-top: 103px;
 }
-/* line 116, ../sass/components/content/_product-spotlight.scss */
+/* line 113, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-tablet.right {
   flex-direction: row-reverse;
 }
-/* line 120, ../sass/components/content/_product-spotlight.scss */
+/* line 117, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-accessories {
   padding-top: 114px;
 }
-/* line 122, ../sass/components/content/_product-spotlight.scss */
+/* line 119, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-accessories .banner-product-desc {
   width: 214px;
   padding: 42px 23px 0;
 }
-/* line 127, ../sass/components/content/_product-spotlight.scss */
+/* line 124, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content > img {
   margin-right: 3px;
 }
-/* line 130, ../sass/components/content/_product-spotlight.scss */
+/* line 127, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWZlZiIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   background: -moz-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
@@ -463,19 +460,19 @@ a {
   padding: 60px 24px 0;
   margin-right: 3px;
 }
-/* line 142, ../sass/components/content/_product-spotlight.scss */
+/* line 139, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc p {
   font-family: 'lg_smartlight';
   font-size: 24px;
   line-height: 1.3em;
 }
-/* line 147, ../sass/components/content/_product-spotlight.scss */
+/* line 144, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc ul {
   display: inline-block;
   margin-bottom: 0px;
   margin-left: 16px;
 }
-/* line 152, ../sass/components/content/_product-spotlight.scss */
+/* line 149, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc li {
   list-style: disc;
   font-family: 'Arial';
@@ -483,51 +480,51 @@ a {
   color: #666;
   line-height: 1.4em;
 }
-/* line 161, ../sass/components/content/_product-spotlight.scss */
+/* line 158, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product {
   float: left;
   position: relative;
   margin: 0 3px 0 0;
 }
-/* line 166, ../sass/components/content/_product-spotlight.scss */
+/* line 163, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc {
   z-index: 100;
   position: absolute;
   top: 0;
   width: 180px;
 }
-/* line 171, ../sass/components/content/_product-spotlight.scss */
+/* line 168, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc.overview {
   margin: 137px 0 0 27px;
 }
-/* line 173, ../sass/components/content/_product-spotlight.scss */
+/* line 170, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc.overview.top-left {
   margin: 39px 0 0 49px;
 }
-/* line 177, ../sass/components/content/_product-spotlight.scss */
+/* line 174, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc p {
   font-family: 'Arial';
   font-weight: normal;
   font-size: 14px;
   color: #666;
 }
-/* line 183, ../sass/components/content/_product-spotlight.scss */
+/* line 180, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc .small-font {
   font-size: 9px;
 }
-/* line 185, ../sass/components/content/_product-spotlight.scss */
+/* line 182, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .small-product-set {
   width: 50%;
 }
-/* line 188, ../sass/components/content/_product-spotlight.scss */
+/* line 185, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .medium-product-set {
   width: 87%;
 }
-/* line 191, ../sass/components/content/_product-spotlight.scss */
+/* line 188, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .seconday-product {
   position: relative;
 }
-/* line 194, ../sass/components/content/_product-spotlight.scss */
+/* line 191, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4 {
   font-family: 'Arial';
   font-size: 14px;
@@ -537,17 +534,17 @@ a {
   position: absolute;
   margin: 96px 0 0 15px;
 }
-/* line 202, ../sass/components/content/_product-spotlight.scss */
+/* line 199, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.top-left {
   margin: 20px 0 0 20px;
 }
-/* line 203, ../sass/components/content/_product-spotlight.scss */
+/* line 200, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-left {
   bottom: 28px;
   margin-left: 20px;
   width: 127px;
 }
-/* line 208, ../sass/components/content/_product-spotlight.scss */
+/* line 205, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-right {
   bottom: 28px;
   width: 127px;
@@ -596,16 +593,18 @@ a {
 /* line 25, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav ul a {
   color: #999;
+  font-weight: normal;
 }
-/* line 27, ../sass/components/content/_secondary-nav.scss */
+/* line 30, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav li {
   float: left;
   margin-right: 40px;
 }
-/* line 31, ../sass/components/content/_secondary-nav.scss */
+/* line 34, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .why-verizon {
   float: right;
   text-transform: uppercase;
   color: #666;
   margin: 7px 0 0 0;
+  font-weight: normal;
 }

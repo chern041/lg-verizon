@@ -50,12 +50,8 @@
   width: 1000px;
   margin: 0 auto;
 }
-/* line 4, ../sass/components/global/_layout.scss */
-.main-wrapper.sticky-nav {
-  padding-top: 88px;
-}
 
-/* line 8, ../sass/components/global/_layout.scss */
+/* line 5, ../sass/components/global/_layout.scss */
 .secondary-wrapper {
   width: 725px;
   margin: 0 auto;
@@ -172,39 +168,48 @@
   margin: 0;
 }
 /* line 53, ../sass/components/content/_slider-tab.scss */
+.slider-tab .slider-logo {
+  margin-bottom: 36px;
+}
+/* line 56, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-content {
   clear: both;
 }
-/* line 56, ../sass/components/content/_slider-tab.scss */
+/* line 59, ../sass/components/content/_slider-tab.scss */
 .slider-tab h2 {
   font-family: 'lg_smartregular';
   font-size: 52px;
   font-weight: normal;
-  line-height: 0;
+  line-height: 1em;
+  margin: 0;
 }
-/* line 63, ../sass/components/content/_slider-tab.scss */
+/* line 67, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-bg {
   z-index: 0;
   position: absolute;
 }
-/* line 67, ../sass/components/content/_slider-tab.scss */
+/* line 71, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description {
-  width: 380px;
+  width: 330px;
   z-index: 100;
-  margin: 49px 0 0 159px;
+  margin: 52px 0 0 155px;
   position: absolute;
 }
-/* line 72, ../sass/components/content/_slider-tab.scss */
+/* line 76, ../sass/components/content/_slider-tab.scss */
+.slider-tab .slider-description.dark-font {
+  color: #000;
+}
+/* line 79, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description p {
   font-family: 'lg_smartregular';
   font-size: 16px;
 }
-/* line 76, ../sass/components/content/_slider-tab.scss */
+/* line 83, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.smartphones {
   color: #333;
-  margin: 16px 0 0 135px;
+  margin: 35px 0 0 199px;
 }
-/* line 82, ../sass/components/content/_slider-tab.scss */
+/* line 89, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
@@ -212,7 +217,7 @@
   width: 100%;
   height: 68px;
 }
-/* line 89, ../sass/components/content/_slider-tab.scss */
+/* line 96, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -220,22 +225,22 @@
   color: #000;
   margin: .5em 0 0 0;
 }
-/* line 96, ../sass/components/content/_slider-tab.scss */
+/* line 103, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
   font-size: 9px;
 }
-/* line 100, ../sass/components/content/_slider-tab.scss */
+/* line 107, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 775px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 101, ../sass/components/content/_slider-tab.scss */
+/* line 108, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
-/* line 106, ../sass/components/content/_slider-tab.scss */
+/* line 113, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav li {
   width: 190px;
   height: 68px;
@@ -246,31 +251,31 @@
   list-style: none;
   position: relative;
 }
-/* line 116, ../sass/components/content/_slider-tab.scss */
+/* line 123, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 118, ../sass/components/content/_slider-tab.scss */
+/* line 125, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
-  z-index: 1000;
+  z-index: 400;
   border-bottom: 16px solid #fff;
   border-left: 16px solid transparent;
   border-right: 16px solid transparent;
   margin: -21px 82px;
   position: absolute;
 }
-/* line 129, ../sass/components/content/_slider-tab.scss */
+/* line 136, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 130, ../sass/components/content/_slider-tab.scss */
+/* line 137, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 134, ../sass/components/content/_slider-tab.scss */
+/* line 141, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 94px;
   float: right;
@@ -558,12 +563,14 @@
 .secondary-nav {
   background: #fff;
   position: relative;
+  height: 72px;
+  padding: 11px 0;
 }
-/* line 4, ../sass/components/content/_secondary-nav.scss */
+/* line 6, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .secondary-wrapper {
   position: relative;
 }
-/* line 7, ../sass/components/content/_secondary-nav.scss */
+/* line 9, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav.sticky-nav {
   position: fixed;
   z-index: 500;
@@ -571,38 +578,39 @@
   left: 0;
   width: 100%;
 }
-/* line 14, ../sass/components/content/_secondary-nav.scss */
+/* line 16, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav a {
   text-decoration: none;
 }
-/* line 15, ../sass/components/content/_secondary-nav.scss */
+/* line 17, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .lg-logo {
   float: left;
 }
-/* line 16, ../sass/components/content/_secondary-nav.scss */
+/* line 18, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .active {
   color: #000;
   font-family: 'lg_smartsemibold';
 }
-/* line 20, ../sass/components/content/_secondary-nav.scss */
+/* line 22, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav ul {
   float: left;
   list-style: none;
   font-size: 24px;
   font-family: 'lg_smartlight';
   padding: 0;
-  margin: 38px 0 0 61px;
-}
-/* line 27, ../sass/components/content/_secondary-nav.scss */
-.secondary-nav ul a {
-  color: #999;
+  margin: 45px 0 0 61px;
 }
 /* line 29, ../sass/components/content/_secondary-nav.scss */
+.secondary-nav ul a {
+  color: #999;
+  font-weight: normal;
+}
+/* line 34, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav li {
   float: left;
   margin-right: 40px;
 }
-/* line 33, ../sass/components/content/_secondary-nav.scss */
+/* line 38, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .why-verizon {
   text-transform: uppercase;
   color: #666;

@@ -1,6 +1,8 @@
 .secondary-nav{
 	background:#fff;
 	position: relative;
+	height: 72px;
+	padding: 11px 0;
 	.secondary-wrapper{
 		position:relative;
 	}
@@ -23,8 +25,11 @@
 		font-size: 24px;
 		font-family: 'lg_smartlight';
 		padding: 0;
-		margin: 38px 0 0 61px;
-		a{color:#999;}
+		margin: 45px 0 0 61px;
+		a{
+			color:#999;
+			font-weight: normal;
+		}
 	}
 	li{
 		float:left;

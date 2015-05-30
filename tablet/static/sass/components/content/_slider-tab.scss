@@ -50,6 +50,9 @@
 		}
 
 	}
+	.slider-logo{
+		margin-bottom: 36px;
+	}
 	.slider-content{
 		clear:both;
 	}
@@ -57,7 +60,8 @@
 		font-family: 'lg_smartregular';
 		font-size: 52px;
 		font-weight: normal;
-		line-height: 0;
+		line-height: 1em;
+		margin: 0;
 	}
 	
 	.slider-bg{
@@ -65,17 +69,20 @@
 		position: absolute;
 	}
 	.slider-description{
-		width:380px;
+		width: 330px;
 		z-index:100;
-		margin: 49px 0 0 159px;
+		margin: 52px 0 0 155px;
 		position:absolute;
+		&.dark-font{
+			color:#000;
+		}
 		p{
 			font-family: 'lg_smartregular';
 			font-size:16px;
 		}
 		&.smartphones{
 			color:#333;
-			margin: 16px 0 0 135px;
+			margin: 35px 0 0 199px;
 		}
 	}
 	$slider-nav-height: 68px;
@@ -118,7 +125,7 @@
 			&:before{
 				border-top-color: #fff;
 				content: "";
-				z-index: 1000;
+				z-index: 400;
 				border-bottom: 16px solid #fff;
 				border-left: 16px solid transparent;
 				border-right: 16px solid transparent;
