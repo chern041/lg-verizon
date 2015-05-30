@@ -518,21 +518,25 @@
   font-family: 'Arial';
   font-weight: normal;
   font-size: 12px;
-  color: #999;
+  color: #666;
 }
-/* line 188, ../sass/components/content/_product-spotlight.scss */
+/* line 187, ../sass/components/content/_product-spotlight.scss */
+.product-spotlight .section-content .primary-product-desc .small-font {
+  font-size: 9px;
+}
+/* line 189, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .small-product-set {
   width: 50%;
 }
-/* line 191, ../sass/components/content/_product-spotlight.scss */
+/* line 192, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .medium-product-set {
   width: 87%;
 }
-/* line 194, ../sass/components/content/_product-spotlight.scss */
+/* line 195, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .seconday-product {
   position: relative;
 }
-/* line 197, ../sass/components/content/_product-spotlight.scss */
+/* line 198, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4 {
   font-family: 'Arial';
   font-size: 14px;
@@ -542,17 +546,17 @@
   position: absolute;
   margin: 96px 0 0 15px;
 }
-/* line 205, ../sass/components/content/_product-spotlight.scss */
+/* line 206, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.top-left {
   margin: 20px 0 0 20px;
 }
-/* line 206, ../sass/components/content/_product-spotlight.scss */
+/* line 207, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-left {
   bottom: 28px;
   margin-left: 20px;
   width: 127px;
 }
-/* line 211, ../sass/components/content/_product-spotlight.scss */
+/* line 212, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-right {
   bottom: 28px;
   width: 127px;
