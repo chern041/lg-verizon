@@ -13,16 +13,24 @@
 
         <link rel="stylesheet" href="static/css/normalize.min.css">
         <link rel="stylesheet" href="static/css/screen.css">
+        <link rel="stylesheet" href="//scache.vzw.com/omni/d/css/omnifooter.css">
         <!--[if gte IE 9]>
           <style type="text/css">.gradient {ilter: none;}</style>
         <![endif]-->
         <script src="static/js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <link rel="stylesheet" href="https://scache.vzw.com/globalnav/css/globalnav-js.css?v=3" />
+        <script type="text/javascript" src="https://scache.vzw.com/globalnav/scripts/vzw_jquery19.js"></script>
+        <script type="text/javascript" src="https://scache.vzw.com/globalnav/gnav.js?v=3"></script>
+        <script>render('globalNavId');</script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header></header>
+        <header>
+            <div id="globalNavId"></div>
+        </header>
         <nav class="secondary-nav">
             <div class="secondary-wrapper">
                 <a href="overview.html">
@@ -318,8 +326,125 @@
                     </div>
                 </section>
             </div>  
-         </div>   
-        <footer></footer>
+        </div>   
+        <footer id="footer" class="noindex">
+          <div id="footerLinks">
+          <div id="footerLinksHeader">
+             <div class="footerCopyright">&copy; 2015 Verizon Wireless</div>
+             <form id="footerVzwOptIn" class="footerVzwOptIn" action="//forms.verizonwireless.com/dgf/optin/2012/08282012_general_optin/index.html" target="_blank" novalidate="">
+                <input type="hidden" name="SOURCEID" value="14_08_General_Optin_HP"> <input type="hidden" name="NAV" value="alt"> 
+                <fieldset> <label for="footerVzwOptInEmail"><span class="icon-mail" aria-hidden="true"></span> Sign up and we'll send you the latest Verizon News!</label> <input type="email" id="footerVzwOptInEmail" name="EMAIL" class="textbox" placeholder="Enter Your Email Address to Get Updates" required="required" data-use-fieldset="true" value=""> <button type="submit" class="vzw-button-red" onclick="vzwSc.trackLink('HP:Optin:Signup'); App.helpers.handleFooterSignUpForm('footerVzwOptIn'); return false;">Sign Up</button> </fieldset>
+             </form>
+             <div class="footerSocialIcons"> <span class="leftAligned" style="vertical-align:top;">Connect with us</span> <a class="facebookIcon" title="" href="https://www.facebook.com/verizon" onclick="vzwSc.trackLink('Footer:Social:facebook');App.helpers.popup(this.href,'fullScreen');return false;">&nbsp;</a> <a class="twitterIcon" title="" href="https://twitter.com/verizonwireless" onclick="vzwSc.trackLink('Footer:Social:twitter');App.helpers.popup(this.href,'fullScreen');return false;">&nbsp;</a> <a class="googleplusIcon" title="" href="https://plus.google.com/+verizon" onclick="vzwSc.trackLink('Footer:Social:googleplus');App.helpers.popup(this.href,'fullScreen');return false;">&nbsp;</a> <a class="chatIcon" title="" href="https://community.verizonwireless.com/welcome" onclick="vzwSc.trackLink('Footer:Social:chat');App.helpers.popup(this.href,'fullScreen');return false;">&nbsp;</a> <a class="emailIcon" title="" href="https://forms.verizonwireless.com/dgf/optin/2012/08282012_general_optin/index.html?SOURCEID=12_10_General_Optin_SFooter&amp;NAV=alt" onclick="vzwSc.trackLink('Footer:Social:email');App.helpers.popup(this.href,'fullScreen');return false;">&nbsp;</a> </div>
+          </div>
+          <div class="footerMainLinks">
+             <div class="col1">
+                <strong>Verizon Wireless</strong> 
+                <div class="clear15"></div>
+                <ul>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Explore Verizon');" href="http://www.verizonwireless.com/wcms/consumer/explore.html">Explore Verizon</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Shop');" href="http://www.verizonwireless.com/wcms/consumer/shop.html">Shop</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:My Verizon');" href="http://www.verizonwireless.com/b2c/myverizonlp/">My Verizon</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Support');" href="http://www.verizonwireless.com/support/">Support</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:News Center');" href="http://www.verizonwireless.com/news/">News Center</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Espa�ol');" href="http://es.verizonwireless.com/">Espa�ol</a></li>
+                </ul>
+             </div>
+             <div class="gradientDivider" style="height:170px;">
+                <div></div>
+             </div>
+             <div class="col2">
+                <strong>Phones &amp; Devices</strong> 
+                <div class="clear15"></div>
+                <ul>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Smartphones');" href="http://www.verizonwireless.com/smartphones/">Smartphones</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Tablets');" href="http://www.verizonwireless.com/tablets/">Tablets</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Connected Devices');" href="http://www.verizonwireless.com/wcms/consumer/explore/connected-devices.html">Connected Devices</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Mobile Hotspots');" href="http://www.verizonwireless.com/internet-devices/">Mobile Hotspots</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Accessories');" href="http://www.verizonwireless.com/accessories/">Accessories</a></li>
+                </ul>
+             </div>
+             <div class="gradientDivider" style="height:170px;">
+                <div></div>
+             </div>
+             <div class="col3">
+                <strong>Brands/OS</strong> 
+                <div class="clear15"></div>
+                <ul>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Apple');" href="http://www.verizonwireless.com/smartphones/apple/">Apple</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:BlackBerry');" href="http://www.verizonwireless.com/smartphones/blackberry/">BlackBerry</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Droid');" href="http://www.verizonwireless.com/smartphones/droid/">Droid</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:HTC');" href="http://www.verizonwireless.com/smartphones/htc/">HTC</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:iPad');" href="http://www.verizonwireless.com/landingpages/ipad/">iPad</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:iPhone');" href="http://www.verizonwireless.com/landingpages/iphone/">iPhone</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Kyocera');" href="http://www.verizonwireless.com/smartphones/kyocera/">Kyocera</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:LG');" href="http://www.verizonwireless.com/smartphones/lg/">LG</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Motorola');" href="http://www.verizonwireless.com/smartphones/motorola/">Motorola</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Samsung');" href="http://www.verizonwireless.com/smartphones/samsung/">Samsung</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Sony');" href="http://www.verizonwireless.com/smartphones/sony/">Sony</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Android');" href="http://www.verizonwireless.com/smartphones/android/">Android</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Windows');" href="http://www.verizonwireless.com/smartphones/windows/">Windows</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Nokia');" href="http://www.verizonwireless.com/smartphones/nokia/">Nokia</a></li>
+                </ul>
+             </div>
+             <div class="gradientDivider" style="height:170px;">
+                <div></div>
+             </div>
+             <div class="col4">
+                <strong>Plans, Deals &amp; More</strong> 
+                <div class="clear15"></div>
+                <ul>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Cell Phone Plans');" href="http://www.verizonwireless.com/wcms/consumer/shop/shop-data-plans.html">Cell Phone Plans</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Deals &amp; Special Offers');" href="http://www.verizonwireless.com/landingpages/special-offers/">Deals &amp; Special Offers</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Free Phones');" href="http://www.verizonwireless.com/landingpages/special-offers/">Free Phones</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Certified Pre-Owned');" href="http://www.verizonwireless.com/landingpages/certified-pre-owned/">Certified Pre-Owned</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Prepaid');" href="http://www.verizonwireless.com/wcms/consumer/shop/prepaid.html">Prepaid</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:In-Store Pickup');" href="http://www.verizonwireless.com/wcms/consumer/in-store-pick-up.html">In-Store Pickup</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Employee Discounts');" href="http://www.verizonwireless.com/b2c/employee/eleuLanding.jsp">Employee Discounts</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Military &amp; Veterans Discounts');" href="http://devices.verizonwireless.com/content/vzw-eStore/military-veterans.html">Military &amp; Veterans Discounts</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Device Recycling Program');" href="http://www.verizonwireless.com/b2c/splash/electronicdevicerecycling.jsp">Device Recycling Program</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Referral Rewards Program');" href="http://www.verizonwireless.com/b2c/support/referral-rewards">Referral Rewards Program</a></li>
+                </ul>
+             </div>
+             <div class="gradientDivider" style="height:170px;">
+                <div></div>
+             </div>
+             <div class="col5">
+                <strong>Service &amp; Support</strong> 
+                <div class="clear15"></div>
+                <ul>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Verizon Wireless Community');" href="https://community.verizonwireless.com/welcome">Verizon Wireless Community</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:4G LTE Network &amp; Coverage');" href="http://www.verizonwireless.com/wcms/consumer/4g-lte.html">4G LTE Network &amp; Coverage</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:View Mobile Site');" href="http://www.verizonwireless.com/vzw/homepage?rvfs=1">View Mobile Site</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Wireless Workshops');" href="https://vzwworkshops.verizonwireless.com/vzwworkshops/nos/wws/DisplayWWSOverview.action">Wireless Workshops</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Verizon Video Gallery');" href="http://www.verizonwireless.com/wcms/consumer/videogallery.html">Verizon Video Gallery</a></li>
+                   <li><a onclick="vzwSc.trackLink('Super Footer:Verizon Wireless:Register Signal Booster');" href="http://www.verizonwireless.com/wcms/consumer/register-signal-booster.html">Register Signal Booster</a></li>
+                </ul>
+             </div>
+          </div>
+          <div class="clear"></div>
+          <div class="gradientKeyline"></div>
+          <div class="clear20"></div>
+          <div class="footerBottomLinks">
+             <a onclick="vzwSc.trackLink('Footer:Site Map');" href="http://www.verizonwireless.com/b2c/sitemap.jsp">Site Map</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:About Us');" href="http://www.verizonwireless.com/aboutus.html">About Us</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Careers');" href="http://www.verizon.com/jobs/">Careers</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Corporate Responsibility');" href="http://www.verizonwireless.com/aboutus/commitment/community-programs.html">Corporate Responsibility</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:HopeLine');" href="http://www.verizonwireless.com/aboutus/hopeline/index.html">HopeLine</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Verizon Innovation Program');" href="http://innovation.verizon.com/">Verizon Innovation Program</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Privacy');" href="http://www.verizon.com/about/privacy/">Privacy</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Legal Notices');" href="http://www.verizonwireless.com/b2c/globalText?contentType=Legal%20Notice">Legal Notices</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Customer Agreement');" href="http://www.verizonwireless.com/b2c/support/customer-agreement">Customer Agreement</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Brochures');" href="http://www.verizonwireless.com/support/splash/collateraldownload.html">Brochures</a> 
+             <div style="padding-top:10px;"> <a onclick="vzwSc.trackLink('Footer:Important Wireless Issues | Radio Frequency Emissions');" href="http://www.verizonwireless.com/aboutus/commitment/safety-security.html">Important Wireless Issues | Radio Frequency Emissions</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Avoid Potential Hearing Loss | Drive Responsibly');" href="http://www.verizonwireless.com/aboutus/commitment/safety-security.html">Avoid Potential Hearing Loss | Drive Responsibly</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Website Use');" href="http://www.verizonwireless.com/b2c/globalText?textName=WEBSITE_USE&amp;jspName=footer/webuse.jsp">Website Use</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Return Policy');" href="http://www.verizonwireless.com/b2c/globalText?textName=RETURN_POLICY&amp;jspName=footer/returnPolicy.jsp">Return Policy</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Accessibility');" href="http://www.verizonwireless.com/aboutus/accessibility/index.html">Accessibility</a> </div>
+             <div style="padding-top:10px;"> <a onclick="vzwSc.trackLink('Footer:My Verizon Terms &amp; Conditions');" href="http://www.verizonwireless.com/wcms/myverizon/terms.html">My Verizon Terms &amp; Conditions</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:SureResponse Terms &amp; Conditions');" href="http://www.verizonwireless.com/b2c/globalText?textName=SURE_RESPONSE_AGREEMENT&amp;jspName=footer/sureResponseCustomerAgreement.jsp">SureResponse Terms &amp; Conditions</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Contact Sales');" href="http://www.verizonwireless.com/wcms/contact-us.html">Contact Sales</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:Lifeline/Link-Up');" href="http://www.verizonwireless.com/wcms/consumer/explore/lifeline.html">Lifeline/Link-Up</a> <span class="pipe">|</span> <a onclick="vzwSc.trackLink('Footer:About Our Ads');" href="http://www.verizon.com/about/privacy/aboutourads/">About Our Ads</a> </div>
+          </div>
+          <div style="padding-top:25px;">
+             <div class="footerIcons">
+                <script src="https://seal.verisign.com/getseal?host_name=www.verizonwireless.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en" type="text/javascript"> </script><img border="0" alt="" usemap="#sealmap_small" oncontextmenu="return false;" src="https://seal.websecurity.norton.com/getseal?at=0&amp;sealid=2&amp;dn=www.verizonwireless.com&amp;lang=en" name="seal"> <map id="sealmap_small" name="sealmap_small"><area style="outline:none;" tabindex="-1" coords="0,0,100,50" shape="rect" href="javascript:vrsn_splash()" title="" alt="Click to Verify - This site has chosen an SSL Certificate to improve Web site security"><area style="outline:none;" tabindex="-1" coords="0,50,53,72" shape="rect" href="javascript:vrsn_splash()" title="" alt="Click to Verify - This site has chosen an SSL Certificate to improve Web site security"><area style="outline:none;" coords="53,50,100,72" shape="rect" href="javascript:symcBuySSL()" title="" alt=""></map>
+                <script type="text/javascript">
+                        document.addEventListener("click", 
+                                function(event){ 
+                                    if(event.target.name=="seal"){
+                                        vzwSc.trackLink('Footer:Certification:Norton Secured'); 
+                                    }
+                                 }, false);
+                </script>  <a onclick="vzwSc.trackLink('Footer:Certification:TRUST-e Privacy');App.helpers.popup(this.href,'popup',600,593);return false;" class="finalMark" href="http://www.verizonwireless.com/b2c/globalText?contentType=globalContent" title=""></a> <a onclick="vzwSc.trackLink('Footer:Certification:BBB Accredited Business');App.helpers.popup(this.href,'popup',600,593);return false;" class="bbbOnline" href="http://www.bbb.org/" title=""></a> <a onclick="vzwSc.trackLink('Footer:Certification:Consumer Information Code');App.helpers.popup(this.href,'popup',600,593);return false;" class="ctiaSeal" href="http://files.ctia.org/pdf/The_Code.pdf" title=""></a> <a onclick="vzwSc.trackLink('Footer:Certification:Verified by Visa');App.helpers.popup(this.href,'popup',600,593);return false;" class="vbvLogo" href="http://aboutus.verizonwireless.com/securecode/visa.html" title=""></a> <a onclick="vzwSc.trackLink('Footer:Certification:MasterCard SecureCode');App.helpers.popup(this.href,'popup',600,593);return false;" class="mcscLogo" href="http://aboutus.verizonwireless.com/securecode/mastercard.html" title=""></a> 
+             </div>
+          </div>
+          </div>
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="static/js/plugins.js"></script>

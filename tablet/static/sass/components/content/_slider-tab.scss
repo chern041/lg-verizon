@@ -30,7 +30,7 @@
 			font-family: 'lg_smartlight';
 			font-size: 49px;
 			font-weight: normal;
-			line-height: 0.1em;
+			line-height: 1em;
 		}
 		h3, p, ul{
 			font-family: 'lg_smartlight';
@@ -79,6 +79,7 @@
 		p{
 			font-family: 'lg_smartregular';
 			font-size:16px;
+			&.small-font{font-size:12px;}
 		}
 		&.smartphones{
 			color:#333;

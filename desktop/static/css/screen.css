@@ -566,22 +566,24 @@ a {
   z-index: 500;
   margin: 0;
   left: 0;
+  top: 0;
   width: 100%;
+  top: 0;
 }
-/* line 12, ../sass/components/content/_secondary-nav.scss */
+/* line 14, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav a {
   text-decoration: none;
 }
-/* line 13, ../sass/components/content/_secondary-nav.scss */
+/* line 15, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .lg-logo {
   float: left;
 }
-/* line 14, ../sass/components/content/_secondary-nav.scss */
+/* line 16, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .active {
   color: #000;
   font-family: 'lg_smartsemibold';
 }
-/* line 18, ../sass/components/content/_secondary-nav.scss */
+/* line 20, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav ul {
   float: left;
   list-style: none;
@@ -590,17 +592,17 @@ a {
   padding: 0;
   margin: 50px 0 0 112px;
 }
-/* line 25, ../sass/components/content/_secondary-nav.scss */
+/* line 27, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav ul a {
   color: #999;
   font-weight: normal;
 }
-/* line 30, ../sass/components/content/_secondary-nav.scss */
+/* line 32, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav li {
   float: left;
   margin-right: 40px;
 }
-/* line 34, ../sass/components/content/_secondary-nav.scss */
+/* line 36, ../sass/components/content/_secondary-nav.scss */
 .secondary-nav .why-verizon {
   float: right;
   text-transform: uppercase;

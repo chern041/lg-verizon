@@ -1,6 +1,6 @@
 (function($) {
 	$(document).ready(function(){
-		var num = 1; //number of pixels before modifying styles
+		var num = 122; //number of pixels before modifying styles
 		var indexTab = 0;
 		var sliderNavLength = $('.slider-nav ul li').length;
 		var sliderNavParent = $('.slider-nav ul');

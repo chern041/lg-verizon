@@ -1,6 +1,6 @@
 (function($) {
 	$(document).ready(function(){
-		var num = 1; //number of pixels before modifying styles
+		var num = 85; //number of pixels before modifying styles
 		var indexTab = 0;
 		var sliderNavLength = $('.slider-nav ul li').length;
 		var sliderNavParent = $('.slider-nav ul');
@@ -35,9 +35,6 @@
 		});
 
 		jQuery.fn.timer = function(){
-			
-			
-
 			if(firstLoad == false && indexTab < sliderNavLength){
 				$(this).removeClass('active');
 				$.ajax({
@@ -64,9 +61,7 @@
 			else{
 				indexTab = 0;
 			}
-
 			console.log('actual position: ' + indexTab);
-			
 		}
 
 		window.setInterval(function(){
