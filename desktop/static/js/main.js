@@ -5,6 +5,9 @@
 		var sliderNavLength = $('.slider-nav ul li').length;
 		var sliderNavParent = $('.slider-nav ul');
 		var firstLoad = true;
+		var autoPlay = setInterval(function(){
+			$('.slider-nav li.active').timer();
+		},3000);
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
 		        $('.secondary-nav').addClass('sticky-nav');
@@ -16,46 +19,54 @@
 		});
 
 		$('.slider-nav li').click(function(){
+			clearAutoPlay();
 			var indexSlide = $(this).index();
-
-			$(this).siblings().removeClass('active');
-			$(this).addClass('active');
-			$.ajax({
-				type: 'GET',
-				url: 'static/html/slider-content-'+indexSlide+'.html',
-				dataType: 'html',
-				success: function(html, textStatus){
-					$('.slider-content').remove();
-					$('.slider-tab').append(html);
-				},
-				error: function(xhr, textStatus, errorThrown){
-					alert('An error occurred: ' + errorThrown)
-				}
-			});
-		});
-
-		jQuery.fn.timer = function(){
-			
-			
-
-			if(firstLoad == false && indexTab < sliderNavLength){
-				$(this).removeClass('active');
+			var $sliderNavElement = $(this);
+			$( ".slider-content" ).animate({ "left": "-=1280px" }, "slow", function(){
+				$sliderNavElement.siblings().removeClass('active');
+				$sliderNavElement.addClass('active');
 				$.ajax({
 					type: 'GET',
-					url: 'static/html/slider-content-'+indexTab+'.html',
+					url: 'static/html/slider-content-'+indexSlide+'.html',
 					dataType: 'html',
 					success: function(html, textStatus){
 						$('.slider-content').remove();
 						$('.slider-tab').append(html);
-						
-						sliderNavParent.find('li:eq('+indexTab+')').addClass('active');
-						indexTab++;
+						$('.slider-content').css('display', 'none');
+						$('.slider-content').fadeIn('slow');
 					},
 					error: function(xhr, textStatus, errorThrown){
 						alert('An error occurred: ' + errorThrown)
 					}
 				});
-				
+
+
+			});
+			
+		});
+
+		jQuery.fn.timer = function(){
+			if(firstLoad == false && indexTab < sliderNavLength){
+				var $sliderNavElement = $(this);
+				$( ".slider-content" ).animate({ "left": "-=1280px" }, "slow", function(){
+					$sliderNavElement.removeClass('active');
+					$.ajax({
+						type: 'GET',
+						url: 'static/html/slider-content-'+indexTab+'.html',
+						dataType: 'html',
+						success: function(html, textStatus){
+							$('.slider-content').remove();
+							$('.slider-tab').append(html);
+							$('.slider-content').css('display', 'none');
+							$('.slider-content').fadeIn('slow');
+							sliderNavParent.find('li:eq('+indexTab+')').addClass('active');
+							indexTab++;
+						},
+						error: function(xhr, textStatus, errorThrown){
+							alert('An error occurred: ' + errorThrown)
+						}
+					});
+				});
 			}
 			else if(firstLoad == true){
 				indexTab++;
@@ -64,16 +75,10 @@
 			else{
 				indexTab = 0;
 			}
-
-			console.log('actual position: ' + indexTab);
-			
 		}
 
-		window.setInterval(function(){
-			$('.slider-nav li.active').timer();
-		},3000);
-
-
+		function clearAutoPlay(){
+			window.clearInterval(autoPlay);
+		}
 	});
 })(jQuery);
-

@@ -157,7 +157,7 @@
 			z-index: 100;
 			position: absolute;
 			top:0;
-			width:280px;
+			width:250px;
 			&.overview{
 				margin: 194px 0 0 38px;
 				&.top-left{
@@ -167,12 +167,12 @@
 			p{
 				font-family: 'Arial';
 				font-weight: normal;
-				color: #999;
+				color: #666;
 				font-size:19px;
+				&.small-font{font-size: 12px;}
 				&.medium-desc{
 					font-size:30px;
 				}
-				
 			}
 		}
 		.seconday-product{

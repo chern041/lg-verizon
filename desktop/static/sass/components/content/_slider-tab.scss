@@ -3,6 +3,7 @@
 	color:#fff;
 	height:487px;
 	clear:both;
+	overflow:hidden;
 	&.tablets{
 		margin-bottom: 13px;
 		h1{
@@ -44,6 +45,7 @@
 	}
 	.slider-content{
 		clear:both;
+		position: absolute;
 	}
 	h2{
 		font-family: 'lg_smartregular';
