@@ -4,6 +4,13 @@
 	height:401px;
 	clear:both;
 	overflow:hidden;
+	.slider-player{
+		position: absolute;
+		z-index: 200;
+		margin: 162px 0 0 673px;
+		width:256px;
+		height: 150px;
+	}
 	&.overview{
 		height:468px;
 	}
@@ -27,22 +34,12 @@
 	}
 	&.smartphones{
 		margin-bottom: 21px;
-		h2{
-			font-family: 'lg_smartlight';
-			font-size: 49px;
-			font-weight: normal;
-			line-height: 1em;
-		}
 		h3, p, ul{
 			font-family: 'lg_smartlight';
 			font-weight: normal;
 			width: 205px;
 		}
-		h3{
-			font-size: 22px;
-  			margin: 0;
-  			line-height: 0;
-		}
+		h3{font-size: 22px;}
 		p, ul{font-size: 18px;}
 		ul{
 			list-style:none;
@@ -60,7 +57,7 @@
 	}
 	h2{
 		font-family: 'lg_smartregular';
-		font-size: 52px;
+		font-size: 45px;
 		font-weight: normal;
 		line-height: 1em;
 		margin: 0;
@@ -85,7 +82,7 @@
 		}
 		&.smartphones{
 			color:#333;
-			margin: 35px 0 0 199px;
+			margin: 7px 0 0 199px;
 		}
 	}
 	$slider-nav-height: 68px;

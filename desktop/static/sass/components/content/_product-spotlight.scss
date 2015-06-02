@@ -2,11 +2,6 @@
 	position: relative;
 	clear: both;
 	margin-bottom: 66px;
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  	display: -ms-flexbox;      /* TWEENER - IE 10 */
-  	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	&.tablets{
 		margin-bottom: 55px;
 	}
@@ -90,8 +85,14 @@
 	.section-content{
 		padding-top: 130px;
 		position: relative;
+		display: -webkit-flex;
 		display: flex;
+		-webkit-flex-direction: row; 
+		flex-direction: row;
+
 		&.flex-reverse{
+			flex-direction: row-reverse;
+			 -webkit-flex-direction: row-reverse; 
 			.banner-product-desc{
 				margin:0px;
 			}
@@ -105,14 +106,8 @@
 			float: left;
 			margin: 0 3px 0 0;
 		}
-		&.content-overview{
-
-		}
 		&.content-tablet{
 			padding-top: 103px;
-			&.right{
-				 flex-direction: row-reverse;
-			}
 		}
 		&.content-accessories{
 			padding-top: 114px;   
@@ -136,10 +131,21 @@
 			width: 187px;
 			padding: 60px 24px 0;
 			margin-right: 3px;
+			position: relative;
+			.banner-content{
+				position: absolute;
+		        top: 50%;
+		        left: 50%;
+		        margin-right: -25%;
+		        transform: translate(-50%, -50%); 
+		        -ms-transform: translate(-50%, -50%); 
+		        -webkit-transform: translate(-50%, -50%); 
+			}
   			p{
   				font-family: 'lg_smartlight';
   				font-size:24px;
   				line-height: 1.3em;
+				margin-top: 0;
   			}
   			ul{
 			  display: inline-block;

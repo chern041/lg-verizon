@@ -9,6 +9,9 @@
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
 		},3000);
+
+		$("a").attr("rel","external");
+
 		$(window).bind('scroll', function () {
 			$(".secondary-nav ul a").css('display', 'none');
 			$(".secondary-nav ul a.active").css('display', 'block');	
