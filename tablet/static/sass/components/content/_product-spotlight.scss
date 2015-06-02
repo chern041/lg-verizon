@@ -2,11 +2,6 @@
 	position: relative;
 	clear: both;
 	margin-bottom: 35px;
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  	display: -ms-flexbox;      /* TWEENER - IE 10 */
-  	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	&.tablets{
 		margin-bottom: 55px;
 	}
@@ -54,10 +49,10 @@
 		p{
 			margin-right: 10px;
 			line-height: 1.2em;
+			font-family: 'Arial';
 		}
 		&.bar-tablets{
 			p{
-				font-family: 'lg_smartlight';
 				margin: 25px 0 0 36px;
 				font-size:18px;
 				float:left;
@@ -82,7 +77,6 @@
 				position: absolute;
 				margin: 22px 350px 0 0;
 				font-size: 14px;
-				font-family: 'Arial';
 			}
 		}
 		.black-button{
@@ -97,8 +91,13 @@
 	.section-content{
 		padding-top: 100px;
 		position: relative;
+		display: -webkit-flex;
 		display: flex;
+		-webkit-flex-direction: row; 
+		flex-direction: row;
 		&.flex-reverse{
+			flex-direction: row-reverse;
+			 -webkit-flex-direction: row-reverse; 
 			.banner-product-desc{
 				margin:0px;
 			}
@@ -117,9 +116,6 @@
 		}
 		&.content-tablet{
 			padding-top: 103px;
-			&.right{
-				 flex-direction: row-reverse;
-			}
 		}
 		&.content-accessories{
 			padding-top: 114px;

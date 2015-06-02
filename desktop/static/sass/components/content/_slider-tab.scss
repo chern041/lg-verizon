@@ -4,6 +4,13 @@
 	height:487px;
 	clear:both;
 	overflow:hidden;
+	.slider-player{
+		position: absolute;
+		z-index: 200;
+		margin: 195px 0 0 810px;
+		width:331px;
+		height: 198px;
+	}
 	&.tablets{
 		margin-bottom: 13px;
 		h1{

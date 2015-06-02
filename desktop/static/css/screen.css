@@ -120,64 +120,72 @@ a {
   overflow: hidden;
 }
 /* line 7, ../sass/components/content/_slider-tab.scss */
+.slider-tab .slider-player {
+  position: absolute;
+  z-index: 200;
+  margin: 195px 0 0 810px;
+  width: 331px;
+  height: 198px;
+}
+/* line 14, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets {
   margin-bottom: 13px;
 }
-/* line 9, ../sass/components/content/_slider-tab.scss */
+/* line 16, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets h1 {
   font-size: 71px;
   font-family: 'lg_smartlight';
   font-weight: normal;
 }
-/* line 14, ../sass/components/content/_slider-tab.scss */
+/* line 21, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets .slider-description {
   margin: 10px 0 0 217px;
 }
-/* line 18, ../sass/components/content/_slider-tab.scss */
+/* line 25, ../sass/components/content/_slider-tab.scss */
 .slider-tab.accessories {
   margin-bottom: 22px;
 }
-/* line 20, ../sass/components/content/_slider-tab.scss */
+/* line 27, ../sass/components/content/_slider-tab.scss */
 .slider-tab.accessories .slider-description {
   bottom: 0;
   margin: 0 0 61px 180px;
 }
-/* line 25, ../sass/components/content/_slider-tab.scss */
+/* line 32, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones {
   margin-bottom: 21px;
 }
-/* line 27, ../sass/components/content/_slider-tab.scss */
+/* line 34, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h2 {
   font-family: 'lg_smartlight';
   font-size: 49px;
   font-weight: normal;
   line-height: 1em;
 }
-/* line 33, ../sass/components/content/_slider-tab.scss */
+/* line 40, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3, .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-family: 'lg_smartlight';
   font-weight: normal;
   width: 205px;
 }
-/* line 38, ../sass/components/content/_slider-tab.scss */
+/* line 45, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3 {
   font-size: 22px;
 }
-/* line 39, ../sass/components/content/_slider-tab.scss */
+/* line 46, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-size: 18px;
 }
-/* line 40, ../sass/components/content/_slider-tab.scss */
+/* line 47, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones ul {
   list-style: none;
   padding: 0;
 }
-/* line 46, ../sass/components/content/_slider-tab.scss */
+/* line 53, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-content {
   clear: both;
   position: absolute;
 }
-/* line 50, ../sass/components/content/_slider-tab.scss */
+/* line 57, ../sass/components/content/_slider-tab.scss */
 .slider-tab h2 {
   font-family: 'lg_smartregular';
   font-size: 52px;
@@ -185,34 +193,34 @@ a {
   line-height: 1em;
   margin: 0;
 }
-/* line 58, ../sass/components/content/_slider-tab.scss */
+/* line 65, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-bg {
   z-index: -1;
   position: absolute;
 }
-/* line 62, ../sass/components/content/_slider-tab.scss */
+/* line 69, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description {
   width: 425px;
   z-index: 100;
   margin: 57px 0 0 199px;
   position: absolute;
 }
-/* line 67, ../sass/components/content/_slider-tab.scss */
+/* line 74, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.dark-font {
   color: #000;
 }
-/* line 70, ../sass/components/content/_slider-tab.scss */
+/* line 77, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description p {
   font-family: 'lg_smartregular';
   font-size: 16px;
   width: 330px;
 }
-/* line 75, ../sass/components/content/_slider-tab.scss */
+/* line 82, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.smartphones {
   color: #333;
   margin: 35px 0 0 199px;
 }
-/* line 82, ../sass/components/content/_slider-tab.scss */
+/* line 89, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
@@ -220,7 +228,7 @@ a {
   width: 100%;
   height: 87px;
 }
-/* line 89, ../sass/components/content/_slider-tab.scss */
+/* line 96, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -228,21 +236,21 @@ a {
   color: #000;
   margin: 1.3em 0 0 0;
 }
-/* line 96, ../sass/components/content/_slider-tab.scss */
+/* line 103, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
 }
-/* line 99, ../sass/components/content/_slider-tab.scss */
+/* line 106, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 1002px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 100, ../sass/components/content/_slider-tab.scss */
+/* line 107, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
-/* line 105, ../sass/components/content/_slider-tab.scss */
+/* line 112, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav li {
   width: 247px;
   height: 87px;
@@ -253,11 +261,11 @@ a {
   list-style: none;
   position: relative;
 }
-/* line 115, ../sass/components/content/_slider-tab.scss */
+/* line 122, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 117, ../sass/components/content/_slider-tab.scss */
+/* line 124, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -268,16 +276,16 @@ a {
   margin: -22px 110px;
   position: absolute;
 }
-/* line 128, ../sass/components/content/_slider-tab.scss */
+/* line 135, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 129, ../sass/components/content/_slider-tab.scss */
+/* line 136, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 133, ../sass/components/content/_slider-tab.scss */
+/* line 140, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;
@@ -312,30 +320,20 @@ a {
   position: relative;
   clear: both;
   margin-bottom: 66px;
-  display: -webkit-box;
-  /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;
-  /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;
-  /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
-/* line 10, ../sass/components/content/_product-spotlight.scss */
+/* line 5, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight.tablets {
   margin-bottom: 55px;
 }
-/* line 13, ../sass/components/content/_product-spotlight.scss */
+/* line 8, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight.accessories {
   margin-bottom: 43px;
 }
-/* line 18, ../sass/components/content/_product-spotlight.scss */
+/* line 13, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight.smartphones .section-content .medium-product-set {
   width: 77%;
 }
-/* line 23, ../sass/components/content/_product-spotlight.scss */
+/* line 18, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight h3 {
   font-family: 'lg_smartsemibold';
   font-size: 40px;
@@ -345,14 +343,14 @@ a {
   margin-top: .3em;
   margin-right: 25px;
 }
-/* line 31, ../sass/components/content/_product-spotlight.scss */
+/* line 26, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight h3.accesories {
   font-family: 'lg_smartlight';
   font-size: 44px;
   margin-right: 0;
   font-weight: normal;
 }
-/* line 38, ../sass/components/content/_product-spotlight.scss */
+/* line 33, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar {
   position: absolute;
   z-index: 100;
@@ -367,88 +365,92 @@ a {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
 }
-/* line 51, ../sass/components/content/_product-spotlight.scss */
+/* line 46, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar p {
   margin-right: 10px;
   line-height: 1.3em;
 }
-/* line 56, ../sass/components/content/_product-spotlight.scss */
+/* line 51, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-tablets p {
   font-family: 'Arial';
   margin: 25px 0 0 36px;
   font-size: 18px;
   float: left;
 }
-/* line 62, ../sass/components/content/_product-spotlight.scss */
+/* line 57, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-tablets .section-bar-logo {
   float: left;
   margin: 14px 0 0 0;
 }
-/* line 68, ../sass/components/content/_product-spotlight.scss */
+/* line 63, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-accesories .section-bar-logo {
   margin: 22px 0 0 0;
 }
-/* line 73, ../sass/components/content/_product-spotlight.scss */
+/* line 68, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-overview h3 {
   float: left;
 }
-/* line 76, ../sass/components/content/_product-spotlight.scss */
+/* line 71, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar.bar-overview p {
   float: left;
   max-width: 515px;
 }
-/* line 81, ../sass/components/content/_product-spotlight.scss */
+/* line 76, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar .black-button {
   float: right;
 }
-/* line 86, ../sass/components/content/_product-spotlight.scss */
+/* line 81, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content-bg {
   z-index: 0;
   position: absolute;
 }
-/* line 90, ../sass/components/content/_product-spotlight.scss */
+/* line 85, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content {
   padding-top: 130px;
   position: relative;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
-/* line 95, ../sass/components/content/_product-spotlight.scss */
+/* line 93, ../sass/components/content/_product-spotlight.scss */
+.product-spotlight .section-content.flex-reverse {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+/* line 96, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.flex-reverse .banner-product-desc {
   margin: 0px;
 }
-/* line 99, ../sass/components/content/_product-spotlight.scss */
+/* line 100, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content ul {
   margin: 0;
   padding: 0;
 }
-/* line 103, ../sass/components/content/_product-spotlight.scss */
+/* line 104, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content li {
   list-style: none;
   float: left;
   margin: 0 3px 0 0;
 }
-/* line 111, ../sass/components/content/_product-spotlight.scss */
+/* line 109, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-tablet {
   padding-top: 103px;
 }
-/* line 113, ../sass/components/content/_product-spotlight.scss */
-.product-spotlight .section-content.content-tablet.right {
-  flex-direction: row-reverse;
-}
-/* line 117, ../sass/components/content/_product-spotlight.scss */
+/* line 112, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-accessories {
   padding-top: 114px;
 }
-/* line 119, ../sass/components/content/_product-spotlight.scss */
+/* line 114, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content.content-accessories .banner-product-desc {
   width: 214px;
   padding: 42px 23px 0;
 }
-/* line 124, ../sass/components/content/_product-spotlight.scss */
+/* line 119, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content > img {
   margin-right: 3px;
 }
-/* line 127, ../sass/components/content/_product-spotlight.scss */
+/* line 122, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWZlZiIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVmZWYiIHN0b3Atb3BhY2l0eT0iMC44Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   background: -moz-linear-gradient(top, rgba(238, 239, 239, 0.8) 0%, rgba(238, 239, 239, 0.8) 2%, rgba(238, 239, 239, 0.8) 100%);
@@ -461,20 +463,32 @@ a {
   width: 187px;
   padding: 60px 24px 0;
   margin-right: 3px;
+  position: relative;
 }
-/* line 139, ../sass/components/content/_product-spotlight.scss */
+/* line 135, ../sass/components/content/_product-spotlight.scss */
+.product-spotlight .section-content .banner-product-desc .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+/* line 144, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc p {
   font-family: 'lg_smartlight';
   font-size: 24px;
   line-height: 1.3em;
+  margin-top: 0;
 }
-/* line 144, ../sass/components/content/_product-spotlight.scss */
+/* line 150, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc ul {
   display: inline-block;
   margin-bottom: 0px;
   margin-left: 16px;
 }
-/* line 149, ../sass/components/content/_product-spotlight.scss */
+/* line 155, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .banner-product-desc li {
   list-style: disc;
   font-family: 'Arial';
@@ -482,51 +496,51 @@ a {
   color: #666;
   line-height: 1.4em;
 }
-/* line 158, ../sass/components/content/_product-spotlight.scss */
+/* line 164, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product {
   float: left;
   position: relative;
   margin: 0 3px 0 0;
 }
-/* line 163, ../sass/components/content/_product-spotlight.scss */
+/* line 169, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc {
   z-index: 100;
   position: absolute;
   top: 0;
   width: 180px;
 }
-/* line 168, ../sass/components/content/_product-spotlight.scss */
+/* line 174, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc.overview {
   margin: 137px 0 0 27px;
 }
-/* line 170, ../sass/components/content/_product-spotlight.scss */
+/* line 176, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc.overview.top-left {
   margin: 39px 0 0 49px;
 }
-/* line 174, ../sass/components/content/_product-spotlight.scss */
+/* line 180, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc p {
   font-family: 'Arial';
   font-weight: normal;
   font-size: 14px;
   color: #666;
 }
-/* line 180, ../sass/components/content/_product-spotlight.scss */
+/* line 186, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .primary-product-desc .small-font {
   font-size: 9px;
 }
-/* line 182, ../sass/components/content/_product-spotlight.scss */
+/* line 188, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .small-product-set {
   width: 50%;
 }
-/* line 185, ../sass/components/content/_product-spotlight.scss */
+/* line 191, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .medium-product-set {
   width: 87%;
 }
-/* line 188, ../sass/components/content/_product-spotlight.scss */
+/* line 194, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content .seconday-product {
   position: relative;
 }
-/* line 191, ../sass/components/content/_product-spotlight.scss */
+/* line 197, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4 {
   font-family: 'Arial';
   font-size: 14px;
@@ -536,17 +550,17 @@ a {
   position: absolute;
   margin: 96px 0 0 15px;
 }
-/* line 199, ../sass/components/content/_product-spotlight.scss */
+/* line 205, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.top-left {
   margin: 20px 0 0 20px;
 }
-/* line 200, ../sass/components/content/_product-spotlight.scss */
+/* line 206, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-left {
   bottom: 28px;
   margin-left: 20px;
   width: 127px;
 }
-/* line 205, ../sass/components/content/_product-spotlight.scss */
+/* line 211, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-content h4.bottom-right {
   bottom: 28px;
   width: 127px;

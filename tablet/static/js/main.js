@@ -9,6 +9,7 @@
 			$('.slider-nav li.active').timer();
 		},3000);
 
+		$("a").attr("rel","external");
 
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
@@ -225,7 +226,6 @@
 				indexTab = 0;
 			}
 		}
-
 		function clearAutoPlay(){
 			window.clearInterval(autoPlay);
 		}
