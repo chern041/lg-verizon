@@ -8,7 +8,7 @@
 		var firstLoad = true;
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
-		},3000);
+		},5000);
 
 		$("a").attr("rel","external");
 

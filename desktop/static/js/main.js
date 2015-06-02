@@ -7,7 +7,7 @@
 		var firstLoad = true;
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
-		},3000);
+		},5000);
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
 		        $('.secondary-nav').addClass('sticky-nav');
