@@ -265,6 +265,7 @@ a {
   float: left;
   list-style: none;
   position: relative;
+  cursor: pointer;
   background: -moz-linear-gradient(top, rgba(102, 102, 102, 0.8) 0%, rgba(102, 102, 102, 0.8) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(102, 102, 102, 0.8)), color-stop(100%, rgba(102, 102, 102, 0.8)));
   background: -webkit-linear-gradient(top, rgba(102, 102, 102, 0.8) 0%, rgba(102, 102, 102, 0.8) 100%);
@@ -273,7 +274,7 @@ a {
   background: linear-gradient(to bottom, rgba(102, 102, 102, 0.8) 0%, rgba(102, 102, 102, 0.8) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc666666', endColorstr='#cc666666',GradientType=0 );
 }
-/* line 122, ../sass/components/content/_slider-tab.scss */
+/* line 123, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I3MDM0ZSIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I3MDM0ZSIgc3RvcC1vcGFjaXR5PSIwLjgiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
   background: -moz-linear-gradient(top, rgba(183, 3, 78, 0.8) 0%, rgba(183, 3, 78, 0.8) 100%);
@@ -284,16 +285,16 @@ a {
   background: linear-gradient(to bottom, rgba(183, 3, 78, 0.8) 0%, rgba(183, 3, 78, 0.8) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccb7034e', endColorstr='#ccb7034e',GradientType=0 );
 }
-/* line 133, ../sass/components/content/_slider-tab.scss */
+/* line 134, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 134, ../sass/components/content/_slider-tab.scss */
+/* line 135, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 138, ../sass/components/content/_slider-tab.scss */
+/* line 139, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;

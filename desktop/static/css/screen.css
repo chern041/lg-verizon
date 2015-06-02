@@ -260,12 +260,13 @@ a {
   float: left;
   list-style: none;
   position: relative;
+  cursor: pointer;
 }
-/* line 122, ../sass/components/content/_slider-tab.scss */
+/* line 123, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 124, ../sass/components/content/_slider-tab.scss */
+/* line 125, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -276,16 +277,16 @@ a {
   margin: -22px 110px;
   position: absolute;
 }
-/* line 135, ../sass/components/content/_slider-tab.scss */
+/* line 136, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 136, ../sass/components/content/_slider-tab.scss */
+/* line 137, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 140, ../sass/components/content/_slider-tab.scss */
+/* line 141, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;
