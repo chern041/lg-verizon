@@ -139,51 +139,42 @@ a {
 .slider-tab.tablets .slider-description {
   margin: 10px 0 0 217px;
 }
-/* line 23, ../sass/components/content/_slider-tab.scss */
-.slider-tab.accessories {
-  margin-bottom: 22px;
-}
-/* line 25, ../sass/components/content/_slider-tab.scss */
-.slider-tab.accessories .slider-description {
-  bottom: 0;
-  margin: 0 0 61px 180px;
-}
-/* line 30, ../sass/components/content/_slider-tab.scss */
+/* line 24, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones {
   margin-bottom: 21px;
 }
-/* line 32, ../sass/components/content/_slider-tab.scss */
+/* line 26, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h2 {
   font-family: 'lg_smartlight';
   font-size: 49px;
   font-weight: normal;
   line-height: 1em;
 }
-/* line 38, ../sass/components/content/_slider-tab.scss */
+/* line 32, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3, .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-family: 'lg_smartlight';
   font-weight: normal;
   width: 205px;
 }
-/* line 43, ../sass/components/content/_slider-tab.scss */
+/* line 37, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3 {
   font-size: 22px;
 }
-/* line 44, ../sass/components/content/_slider-tab.scss */
+/* line 38, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-size: 18px;
 }
-/* line 45, ../sass/components/content/_slider-tab.scss */
+/* line 39, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones ul {
   list-style: none;
   padding: 0;
 }
-/* line 50, ../sass/components/content/_slider-tab.scss */
+/* line 44, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-content {
   clear: both;
   position: absolute;
 }
-/* line 54, ../sass/components/content/_slider-tab.scss */
+/* line 48, ../sass/components/content/_slider-tab.scss */
 .slider-tab h2 {
   font-family: 'lg_smartregular';
   font-size: 52px;
@@ -191,40 +182,40 @@ a {
   line-height: 1em;
   margin: 0;
 }
-/* line 62, ../sass/components/content/_slider-tab.scss */
+/* line 56, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-bg {
   z-index: -1;
   position: absolute;
 }
-/* line 66, ../sass/components/content/_slider-tab.scss */
+/* line 60, ../sass/components/content/_slider-tab.scss */
 .slider-tab .hero-video-icon {
   z-index: 100;
   position: absolute;
   margin: 234px 0 0 614px;
 }
-/* line 71, ../sass/components/content/_slider-tab.scss */
+/* line 65, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description {
   width: 425px;
   z-index: 100;
   margin: 57px 0 0 199px;
   position: absolute;
 }
-/* line 76, ../sass/components/content/_slider-tab.scss */
+/* line 70, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.dark-font {
   color: #000;
 }
-/* line 79, ../sass/components/content/_slider-tab.scss */
+/* line 73, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description p {
   font-family: 'lg_smartregular';
   font-size: 16px;
   width: 330px;
 }
-/* line 84, ../sass/components/content/_slider-tab.scss */
+/* line 78, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.smartphones {
   color: #333;
   margin: 35px 0 0 199px;
 }
-/* line 91, ../sass/components/content/_slider-tab.scss */
+/* line 85, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
@@ -232,7 +223,7 @@ a {
   width: 100%;
   height: 87px;
 }
-/* line 98, ../sass/components/content/_slider-tab.scss */
+/* line 92, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -240,21 +231,21 @@ a {
   color: #000;
   margin: 1.3em 0 0 0;
 }
-/* line 105, ../sass/components/content/_slider-tab.scss */
+/* line 99, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
 }
-/* line 108, ../sass/components/content/_slider-tab.scss */
+/* line 102, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 1002px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 109, ../sass/components/content/_slider-tab.scss */
+/* line 103, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
-/* line 114, ../sass/components/content/_slider-tab.scss */
+/* line 108, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav li {
   width: 247px;
   height: 87px;
@@ -266,11 +257,11 @@ a {
   position: relative;
   cursor: pointer;
 }
-/* line 125, ../sass/components/content/_slider-tab.scss */
+/* line 119, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 127, ../sass/components/content/_slider-tab.scss */
+/* line 121, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -281,16 +272,16 @@ a {
   margin: -22px 110px;
   position: absolute;
 }
-/* line 138, ../sass/components/content/_slider-tab.scss */
+/* line 132, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 139, ../sass/components/content/_slider-tab.scss */
+/* line 133, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 143, ../sass/components/content/_slider-tab.scss */
+/* line 137, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;
@@ -406,7 +397,7 @@ a {
   transform: translate(75%, -50%);
   -webkit-transform: translate(75%, -50%);
   -ms-transform: translate(75%, -50%);
-  width: 400px;
+  width: 425px;
 }
 /* line 84, ../sass/components/content/_product-spotlight.scss */
 .product-spotlight .section-bar h3 {
