@@ -120,72 +120,64 @@ a {
   overflow: hidden;
 }
 /* line 7, ../sass/components/content/_slider-tab.scss */
-.slider-tab .slider-player {
-  position: absolute;
-  z-index: 200;
-  margin: 195px 0 0 810px;
-  width: 331px;
-  height: 198px;
-}
-/* line 14, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets {
   margin-bottom: 13px;
 }
-/* line 16, ../sass/components/content/_slider-tab.scss */
+/* line 9, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets h1 {
   font-size: 71px;
   font-family: 'lg_smartlight';
   font-weight: normal;
 }
-/* line 21, ../sass/components/content/_slider-tab.scss */
+/* line 14, ../sass/components/content/_slider-tab.scss */
 .slider-tab.tablets .slider-description {
   margin: 10px 0 0 217px;
 }
-/* line 25, ../sass/components/content/_slider-tab.scss */
+/* line 18, ../sass/components/content/_slider-tab.scss */
 .slider-tab.accessories {
   margin-bottom: 22px;
 }
-/* line 27, ../sass/components/content/_slider-tab.scss */
+/* line 20, ../sass/components/content/_slider-tab.scss */
 .slider-tab.accessories .slider-description {
   bottom: 0;
   margin: 0 0 61px 180px;
 }
-/* line 32, ../sass/components/content/_slider-tab.scss */
+/* line 25, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones {
   margin-bottom: 21px;
 }
-/* line 34, ../sass/components/content/_slider-tab.scss */
+/* line 27, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h2 {
   font-family: 'lg_smartlight';
   font-size: 49px;
   font-weight: normal;
   line-height: 1em;
 }
-/* line 40, ../sass/components/content/_slider-tab.scss */
+/* line 33, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3, .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-family: 'lg_smartlight';
   font-weight: normal;
   width: 205px;
 }
-/* line 45, ../sass/components/content/_slider-tab.scss */
+/* line 38, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones h3 {
   font-size: 22px;
 }
-/* line 46, ../sass/components/content/_slider-tab.scss */
+/* line 39, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones p, .slider-tab.smartphones ul {
   font-size: 18px;
 }
-/* line 47, ../sass/components/content/_slider-tab.scss */
+/* line 40, ../sass/components/content/_slider-tab.scss */
 .slider-tab.smartphones ul {
   list-style: none;
   padding: 0;
 }
-/* line 53, ../sass/components/content/_slider-tab.scss */
+/* line 45, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-content {
   clear: both;
   position: absolute;
 }
-/* line 57, ../sass/components/content/_slider-tab.scss */
+/* line 49, ../sass/components/content/_slider-tab.scss */
 .slider-tab h2 {
   font-family: 'lg_smartregular';
   font-size: 52px;
@@ -193,34 +185,40 @@ a {
   line-height: 1em;
   margin: 0;
 }
-/* line 65, ../sass/components/content/_slider-tab.scss */
+/* line 57, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-bg {
   z-index: -1;
   position: absolute;
 }
-/* line 69, ../sass/components/content/_slider-tab.scss */
+/* line 61, ../sass/components/content/_slider-tab.scss */
+.slider-tab .hero-video-icon {
+  z-index: 100;
+  position: absolute;
+  margin: 234px 0 0 614px;
+}
+/* line 66, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description {
   width: 425px;
   z-index: 100;
   margin: 57px 0 0 199px;
   position: absolute;
 }
-/* line 74, ../sass/components/content/_slider-tab.scss */
+/* line 71, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.dark-font {
   color: #000;
 }
-/* line 77, ../sass/components/content/_slider-tab.scss */
+/* line 74, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description p {
   font-family: 'lg_smartregular';
   font-size: 16px;
   width: 330px;
 }
-/* line 82, ../sass/components/content/_slider-tab.scss */
+/* line 79, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-description.smartphones {
   color: #333;
   margin: 35px 0 0 199px;
 }
-/* line 89, ../sass/components/content/_slider-tab.scss */
+/* line 86, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav {
   background: #ccc;
   position: absolute;
@@ -228,7 +226,7 @@ a {
   width: 100%;
   height: 87px;
 }
-/* line 96, ../sass/components/content/_slider-tab.scss */
+/* line 93, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav h3 {
   font-family: 'Arial';
   font-weight: bold;
@@ -236,21 +234,21 @@ a {
   color: #000;
   margin: 1.3em 0 0 0;
 }
-/* line 103, ../sass/components/content/_slider-tab.scss */
+/* line 100, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav p {
   margin: 0;
 }
-/* line 106, ../sass/components/content/_slider-tab.scss */
+/* line 103, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul {
   width: 1002px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 107, ../sass/components/content/_slider-tab.scss */
+/* line 104, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav ul > :first-child {
   border-left: 1px solid #fff;
 }
-/* line 112, ../sass/components/content/_slider-tab.scss */
+/* line 109, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav li {
   width: 247px;
   height: 87px;
@@ -262,11 +260,11 @@ a {
   position: relative;
   cursor: pointer;
 }
-/* line 123, ../sass/components/content/_slider-tab.scss */
+/* line 120, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active {
   background: #FFF;
 }
-/* line 125, ../sass/components/content/_slider-tab.scss */
+/* line 122, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .active:before {
   border-top-color: #fff;
   content: "";
@@ -277,16 +275,16 @@ a {
   margin: -22px 110px;
   position: absolute;
 }
-/* line 136, ../sass/components/content/_slider-tab.scss */
+/* line 133, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav a {
   float: none;
 }
-/* line 137, ../sass/components/content/_slider-tab.scss */
+/* line 134, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav img {
   float: left;
   position: absolute;
 }
-/* line 141, ../sass/components/content/_slider-tab.scss */
+/* line 138, ../sass/components/content/_slider-tab.scss */
 .slider-tab .slider-nav .slider-nav-desc {
   width: 120px;
   float: right;

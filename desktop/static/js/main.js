@@ -5,9 +5,15 @@
 		var sliderNavLength = $('.slider-nav ul li').length;
 		var sliderNavParent = $('.slider-nav ul');
 		var firstLoad = true;
+		
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
 		},5000);
+		$(".hero-video-icon").colorbox({
+		   width: "450px",
+		   height: "300px",
+		   overflow: "hidden"
+		});
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
 		        $('.secondary-nav').addClass('sticky-nav');
