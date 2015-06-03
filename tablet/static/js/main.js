@@ -8,9 +8,12 @@
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
 		},5000);
-
+		$(".hero-video-icon").colorbox({
+		   width: "450px",
+		   height: "300px",
+		   overflow: "hidden"
+		});
 		$("a").attr("rel","external");
-
 		$(window).bind('scroll', function () {
 		    if ($(window).scrollTop() > num) {
 		        $('.secondary-nav').addClass('sticky-nav');

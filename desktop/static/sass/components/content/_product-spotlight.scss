@@ -50,7 +50,7 @@
 		.section-bar-logo{
 			float: left;
 			position: absolute;
-			top: 20%;
+			top: 24%;
 		}
 		.bar-tablets{
 			p{
@@ -60,19 +60,11 @@
 				-ms-transform: translate(100%, -50%);
 			}
 		}
-		&.bar-accesories{
+		&.large-title{
 			p{
-				transform: translate(70%, -50%);
-				-webkit-transform: translate(70%, -50%);
-				-ms-transform: translate(70%, -50%);
-				width: 100%;
-			}
-			&.large-title{
-				p{
-					transform: translate(115%, -50%);
-					-webkit-transform: translate(115%, -50%);
-					-ms-transform: translate(115%, -50%);
-				}
+				transform: translate(125%, -50%);
+				-webkit-transform: translate(125%, -50%);
+				-ms-transform: translate(125%, -50%);
 			}
 		}
 		p{
@@ -82,11 +74,11 @@
 			float: left;
 			line-height: 1.3em;
 			position: absolute;               
-			top: 50%;                         
-			transform: translate(53%, -50%);
-			-webkit-transform: translate(53%, -50%);
-			-ms-transform: translate(53%, -50%);
-			max-width: 428px; 
+			top: 59%;                         
+			transform: translate(75%, -50%);
+			-webkit-transform: translate(75%, -50%);
+			-ms-transform: translate(75%, -50%);
+			width: 400px; 
 
 		}
 		h3{

@@ -4,6 +4,11 @@
 	height:487px;
 	clear:both;
 	overflow:hidden;
+	.hero-video-icon {
+	  z-index: 100;
+	  position: absolute;
+	  margin: 234px 0 0 614px;
+	}
 	&.tablets{
 		margin-bottom: 13px;
 		h1{

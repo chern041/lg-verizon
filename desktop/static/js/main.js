@@ -5,7 +5,6 @@
 		var sliderNavLength = $('.slider-nav ul li').length;
 		var sliderNavParent = $('.slider-nav ul');
 		var firstLoad = true;
-		
 		var autoPlay = setInterval(function(){
 			$('.slider-nav li.active').timer();
 		},5000);
