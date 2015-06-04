@@ -20,6 +20,9 @@
 			}
 		}
 	}
+	.medium-product-set{
+		li{float:left;}
+	}		
 	.medium-size{font-size:30px;}
 	h3{
 		font-family: 'lg_smartsemibold';
@@ -96,7 +99,6 @@
 		}
 		li{
 			list-style: none;
-			float: left;
 			margin: 0 3px 0 0;
 		}
 		&.content-smartphones{
