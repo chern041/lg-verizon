@@ -33,12 +33,14 @@
 	&.accessories{
 		  margin-bottom: 22px;
 		.slider-description{
-			bottom: 0;
   			margin: 0 0 61px 180px;
 		}
 	}
 	&.smartphones{
 		margin-bottom: 21px;
+		h2{
+			font-size: 32px;
+		}
 		h3, p, ul{
 			font-family: 'lg_smartlight';
 			font-weight: normal;
@@ -50,6 +52,9 @@
 			list-style:none;
 			padding: 0;
 			margin: 0;
+		}
+		.slider-logo{
+			margin-bottom: 0;
 		}
 
 	}
